@@ -226,6 +226,15 @@ section.section
     p.text-center
       = link_to '実行委員一覧', '/staff'
     .sponsorsText
+      h4.text-center お問い合わせ先
+      p
+        | 事務局: 関 満徳 (
+        = link_to '@fullvirtue', 'https://twitter.com/fullvirtue', target: '_blank'
+        | )
+        | &nbsp;
+        i.fa.fa-envelope-o
+        =< link_to 'fullvirtue@vivaceplus.com', 'mailto:fullvirtue@vivaceplus.com', target: '_blank'
+    .sponsorsText
       p
         | Original web site design by #{link_to 'kony', 'https://github.com/konycc', target: '_blank'} from Increments Inc.
         br
