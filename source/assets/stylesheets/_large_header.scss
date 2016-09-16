@@ -13,7 +13,6 @@
   }
 
   &_siteLogo {
-    max-width: 800px;
     width: 100%;
     display: inline-block;
     margin: 8px 0;
@@ -24,7 +23,9 @@
     transform: rotate(-6deg);
 
     @media (max-width: $screen-xs-max) {
-      font-size: 3em;
+      width: 93%;
+      margin-top: 30px;
+      font-size: 2.8em;
     }
   }
 
@@ -38,6 +39,10 @@
     font-size: 14px;
     font-weight: bold;
     margin-left: 8px;
+
+    @media (max-width: $screen-xs-max) {
+      display: block;
+    }
   }
 
   &_signup {
