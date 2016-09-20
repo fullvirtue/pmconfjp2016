@@ -8,6 +8,9 @@ platina:
   - name: 楽天株式会社
     url: http://corp.rakuten.co.jp/careers/engineering/
     logo_image_url: /assets/images/sponsors/rakuten.png
+  - name: 株式会社モバイルファクトリー
+    url: http://www.mobilefactory.jp/
+    logo_image_url: /assets/images/sponsors/mobilefactory.png
 golds:
   - name: 株式会社メルカリ
     url: https://www.mercari.com/jp/about/corporate/
