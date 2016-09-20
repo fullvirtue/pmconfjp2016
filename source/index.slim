@@ -58,7 +58,7 @@ section.section
 section.section
   .container
     h2.section_title SPEAKERS & SCHEDULE
-    ul.nav.nav-tabs
+    ul.nav.nav-tabs.commonBody_schedule
       li.active
         =link_to '10/24 (月)', '#day1', 'data-toggle' => 'tab'
       li
@@ -195,13 +195,11 @@ section.section
     .sponsors_list
       - data.sponsors.golds.each do |golds|
         = link_to image_tag(golds.logo_image_url), golds.url, class: 'sponsors_list_item-golds', target: '_blank', title: golds.name, 'data-toggle' => 'tooltip'
-    h3 シルバースポンサー
-    .sponsors_list
-      - if data.sponsors.silvers.present?
+    - if data.sponsors.silvers.present?
+      h3 シルバースポンサー
+      .sponsors_list
         - data.sponsors.silvers.each do |silvers|
           = link_to image_tag(silvers.logo_image_url), silvers.url, class: 'sponsors_list_item-silvers', target: '_blank', title: silvers.name, 'data-toggle' => 'tooltip'
-      - else
-        | 募集中
     h3 ドリンクスポンサー
     .sponsors_list
       - data.sponsors.drinks.each do |drinks|

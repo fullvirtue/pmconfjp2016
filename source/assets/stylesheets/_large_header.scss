@@ -53,8 +53,8 @@
       padding: 10px 50px;
       font-size: 18px;
       font-weight: bold;
-      color: #585858;
-      background-color: #ffee00;
+      color: $brand-sub-text-color;
+      background-color: $brand-sub-color;
       transition: all .1s ease-in-out;
 
       &:hover,
