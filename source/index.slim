@@ -58,7 +58,7 @@ section.section
 section.section
   .container
     h2.section_title SPEAKERS & SCHEDULE
-    ul.nav.nav-tabs
+    ul.nav.nav-tabs.commonBody_schedule
       li.active
         =link_to '10/24 (月)', '#day1', 'data-toggle' => 'tab'
       li
@@ -180,7 +180,7 @@ section.section
 /       .col-sm-6
 /         aside
 /           | <div class="fb-page" data-href="https://www.facebook.com/pmconf" data-width="500px" data-height="400px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/pmconf"><a href="https://www.facebook.com/pmconf">pmconf2016</a></blockquote></div></div>
-/ 
+/
 /       .col-sm-6
 /         aside
 /           | <a class="twitter-timeline" href="https://twitter.com/pmconf" data-widget-id="663690851407654913" data-height="400px">@pmconfさんのツイート</a>
@@ -195,13 +195,11 @@ section.section
     .sponsors_list
       - data.sponsors.golds.each do |golds|
         = link_to image_tag(golds.logo_image_url), golds.url, class: 'sponsors_list_item-golds', target: '_blank', title: golds.name, 'data-toggle' => 'tooltip'
-    h3 シルバースポンサー
-    .sponsors_list
-      - if data.sponsors.silvers.present?
+    - if data.sponsors.silvers.present?
+      h3 シルバースポンサー
+      .sponsors_list
         - data.sponsors.silvers.each do |silvers|
           = link_to image_tag(silvers.logo_image_url), silvers.url, class: 'sponsors_list_item-silvers', target: '_blank', title: silvers.name, 'data-toggle' => 'tooltip'
-      - else
-        | 募集中
     h3 ドリンクスポンサー
     .sponsors_list
       - data.sponsors.drinks.each do |drinks|
@@ -238,7 +236,7 @@ section.section
         =< link_to 'fullvirtue@vivaceplus.com', 'mailto:fullvirtue@vivaceplus.com', target: '_blank'
     .sponsorsText
       p
-        | Original web site design by #{link_to 'kony', 'https://github.com/konycc', target: '_blank'} from Increments Inc.
+        | Designed by #{link_to 'htomine', 'https://github.com/htomine', target: '_blank'} from Increments Inc.
         br
         | Hosted by #{link_to 'GitHub', 'https://github.com/htomine/pmconf', target: '_blank'}
     .socialBtns
