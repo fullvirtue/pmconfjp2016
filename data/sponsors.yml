@@ -2,6 +2,12 @@ platina:
   - name: ジャストシステム株式会社
     url: http://www.justsystems.com/jp/
     logo_image_url: /assets/images/sponsors/justsystem.png
+  - name: 日本マイクロソフト株式会社
+    url: https://www.microsoft.com/ja-jp/
+    logo_image_url: /assets/images/sponsors/microsoft.png
+  - name: 楽天株式会社
+    url: http://www.rakuten.co.jp/
+    logo_image_url: /assets/images/sponsors/rakuten.png
 golds:
   - name: 株式会社メルカリ
     url: https://www.mercari.com/jp/about/corporate/
