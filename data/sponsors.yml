@@ -30,6 +30,9 @@ golds:
   - name: LINE株式会社
     url: http://line.me/ja/
     logo_image_url: /assets/images/sponsors/line.png
+  - name: 株式会社グッドパッチ
+    url: http://goodpatch.com/jp
+    logo_image_url: /assets/images/sponsors/goodpatch.png
 silvers:
 drinks:
   - name: スマートニュース株式会社
