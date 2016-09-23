@@ -21,6 +21,9 @@ golds:
   - name: サイボウズ株式会社
     url: http://cybozu.co.jp/company/job/recruitment/list/product_manager.html
     logo_image_url: /assets/images/sponsors/cybozu.png
+  - name: 株式会社ビズリーチ
+    url: http://www.bizreach.co.jp/corporate_info/profile/
+    logo_image_url: /assets/images/sponsors/bizreach.png
   - name: 株式会社サイバーエージェント
     url: https://www.cyberagent.co.jp/corporate/data/
     logo_image_url: /assets/images/sponsors/cyberagent.png
