@@ -27,6 +27,9 @@ golds:
   - name: 株式会社ビズリーチ
     url: http://www.bizreach.co.jp/corporate_info/profile/
     logo_image_url: /assets/images/sponsors/bizreach.png
+  - name: LINE株式会社
+    url: http://line.me/ja/
+    logo_image_url: /assets/images/sponsors/line.png
 silvers:
 drinks:
   - name: スマートニュース株式会社
