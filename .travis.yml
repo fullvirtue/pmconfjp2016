@@ -1,8 +1,6 @@
+sudo: true
 language: ruby
 rvm: 2.3.1
-script: bundle exec middleman build --verbose
-before_install:
-  - "npm install"
 env:
   global:
   - GIT_COMMITTER_NAME='htomine@travis-ci'
@@ -10,6 +8,12 @@ env:
   - GIT_AUTHOR_NAME='htomine@travis-ci'
   - GIT_AUTHOR_EMAIL='htomine@qiita.com'
   - secure: YZmILnD41EbwEO915a8MpjRiIfkQsXqZOd+Q4ovRFd/9LNb/3GkofYlrE6/Mqa4rLZ54bm7ubRiEV/IBFO3fOSYM1ZByIH+Z0Cbs2ZoVpj1fW5go8f41FSJkoYoYviQRlvOwwIzSwpB7c9weDCJupu2H3BHFURoM6SG9PyMvPCpoW/we+4t4iIJKxbg0gVZ6FsuzrvJTzkZEgMOnovSH8JWd/DyTs6f63MDherlbt6fjDKLDm96+fYM18vpu6oRPXP3M/uI+qXNFtHApV3b3a0KHBQAkV9rK8CSFxbURjR6rNJIO4wiG+Ul3fhRv+GKs7RePhi3exjKg55QeafC1zugJbYPK2Dr/Pn5rhSqYT2Z4lR438RaPkw/aL+G45oyeOAckVthrVhhFYSGfJGQNBckTv5CCJKJjAZXL7QEEFbw6+RfoS+D88iCgiyNDVORR1YBW8nRqZhIxy73uhoxuezhLqw98p5MMbAnnWOrAPTejgxECGpgMZF/x2ZX6L4DCK0NmdID5qhSIx66Y6ugklmn+zbeaW+zpt2jfdFy9rjk3imPwS45XBzZUqSSdEB2tD0QXxGFEh1tZ5m0hFDhvIhjlnpGWl9446lCt3Fty+cMk9cXowbMWkfcEZM8DySGNJewYtg3UBvzvKnFDDcIGQn299HlOFMEdMH1TGP6XVBo=
+  - TRAVIS_NODE_VERSION="6.1"
+before_install:
+  - "rm -rf ~/.nvm && git clone https://github.com/creationix/nvm.git ~/.nvm && (cd ~/.nvm && git checkout `git describe --abbrev=0 --tags`) && source ~/.nvm/nvm.sh && nvm install $TRAVIS_NODE_VERSION"
+  - "npm install"
+script:
+  - "bundle exec middleman build --verbose"
 after_success:
 - '[ "$TRAVIS_BRANCH" == "master" ] && [ $GH_TOKEN ] && bundle exec middleman deploy
   >/dev/null 2>&1'
