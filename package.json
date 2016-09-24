@@ -14,5 +14,15 @@
   "bugs": {
     "url": "https://github.com/htomine/pmconf/issues"
   },
-  "homepage": "https://github.com/htomine/pmconf#readme"
+  "homepage": "https://github.com/htomine/pmconf#readme",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "css-loader": "^0.25.0",
+    "file-loader": "^0.9.0",
+    "node-sass": "^3.10.0",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.2"
+  }
 }
