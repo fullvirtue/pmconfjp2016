@@ -97,7 +97,7 @@ configure :build do
 end
 
 activate :deploy do |deploy|
-  deploy.method = :git
+  deploy.deploy_method = :git
   deploy.branch = 'gh-pages'
   deploy.remote = "https://#{ENV['GH_TOKEN']}@github.com/htomine/pmconf.git"
   deploy.build_before = true
