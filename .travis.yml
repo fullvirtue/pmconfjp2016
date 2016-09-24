@@ -1,6 +1,10 @@
 sudo: true
 language: ruby
 rvm: 2.3.1
+cache:
+  bundler: true
+  directories:
+  - node_modules
 env:
   global:
   - GIT_COMMITTER_NAME='htomine@travis-ci'
