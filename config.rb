@@ -31,7 +31,6 @@ activate :blog do |blog|
   blog.default_extension = '.md'
 end
 
-# page '/', layout: 'no_header_layout'
 page 'sitemap.xml', layout: 'xml_layout'
 
 helpers do
@@ -74,12 +73,6 @@ helpers do
     data.sponsors.drinks.each { |sd| arr << sd }
     arr
   end
-
-  # def staff_readme
-  #   readme = Octokit.readme 'htomine/pmconf_staff',
-  #            accept: 'application/vnd.github.html'
-  #   readme.force_encoding('UTF-8')
-  # end
 end
 
 set :css_dir, 'assets/stylesheets'
