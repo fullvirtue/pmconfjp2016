@@ -1,15 +1,14 @@
-@import 'variables';
-@import 'mixins';
-
-// Bootstrap
-// ---------
-@import 'bootstrap_custom';
-$icon-font-path: '~bootstrap-sass/assets/fonts/bootstrap/';
-@import '~bootstrap-sass/assets/stylesheets/bootstrap';
-
 // Google Font
 @import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
 @import url(https://fonts.googleapis.com/css?family=Damion);
+
+// bootstrap3 stylesheets
+@import 'bootstrap_custom';
+@import 'bootstrap';
+
+// common
+@import 'variables';
+@import 'mixins';
 
 // partials
 @import 'article_list';

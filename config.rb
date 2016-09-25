@@ -31,6 +31,7 @@ activate :blog do |blog|
   blog.default_extension = '.md'
 end
 
+# page '/', layout: 'no_header_layout'
 page 'sitemap.xml', layout: 'xml_layout'
 
 helpers do
@@ -73,8 +74,16 @@ helpers do
     data.sponsors.drinks.each { |sd| arr << sd }
     arr
   end
+
+  # def staff_readme
+  #   readme = Octokit.readme 'htomine/pmconf_staff',
+  #            accept: 'application/vnd.github.html'
+  #   readme.force_encoding('UTF-8')
+  # end
 end
 
+set :css_dir, 'assets/stylesheets'
+set :js_dir, 'assets/javascripts'
 set :images_dir, 'assets/images'
 
 configure :development do
@@ -82,18 +91,14 @@ configure :development do
 end
 
 configure :build do
+  activate :minify_css
+  activate :minify_javascript
   activate :relative_assets
 end
 
 activate :deploy do |deploy|
-  deploy.deploy_method = :git
+  deploy.method = :git
   deploy.branch = 'gh-pages'
   deploy.remote = "https://#{ENV['GH_TOKEN']}@github.com/htomine/pmconf.git"
   deploy.build_before = true
 end
-
-activate :external_pipeline,
-         name: :webpack,
-         command: build? ? './node_modules/webpack/bin/webpack.js -p --bail' : './node_modules/webpack/bin/webpack.js --watch -d',
-         source: '.tmp/dist',
-         latency: 1
