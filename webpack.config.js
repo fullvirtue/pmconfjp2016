@@ -10,7 +10,10 @@ module.exports = {
       path.join(__dirname, 'node_modules'),
       path.join(__dirname, 'source/assets/stylesheets')
     ],
-    extensions: ['', '.js', '.scss']
+    extensions: ['', '.js', '.scss'],
+    alias: {
+      bootstrap: 'bootstrap-sass/assets/javascripts/bootstrap.min.js'
+    }
   },
 
   output: {
