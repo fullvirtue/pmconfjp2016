@@ -17,6 +17,9 @@ platina:
   - name: 株式会社モバイルファクトリー
     url: http://www.mobilefactory.jp/
     logo_image_url: /assets/images/sponsors/mobilefactory.png
+  - name: ギルドワークス株式会社
+    url: https://guildworks.jp/
+    logo_image_url: /assets/images/sponsors/guildworks.png
 golds:
   - name: 株式会社メルカリ
     url: https://www.mercari.com/jp/about/corporate/
