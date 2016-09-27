@@ -1,0 +1,45 @@
+.speakers {
+  &_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &_item {
+      text-align: center;
+      width: 25%;
+      margin-bottom: 30px;
+    }
+
+    &_image {
+      border-radius: 50%;
+      width: 140px;
+      height: 140px;
+    }
+
+    &_name {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    &_organization {
+      margin-top: 3px;
+    }
+
+    &_organization,
+    &_title {
+      font-size: 12px;
+      color: #888;
+      line-height: 1.4;
+    }
+  }
+
+  &_schedulelink {
+    margin-top: 40px;
+    text-align: center;
+
+    .btn {
+      background-color: $brand-sub-color;
+      color: $brand-sub-text-color;
+    }
+  }
+}

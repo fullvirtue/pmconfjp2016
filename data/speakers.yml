@@ -1,0 +1,37 @@
+keynotes:
+  - name: 徳生 裕人
+    organization: グーグル株式会社
+    title: 製品開発本部長
+    profile_image_url: /assets/images/blank_user.png
+specials:
+  - name: 河合 敬一
+    organization: Niantic, Inc.
+    title: Product Management Director
+    profile_image_url: /assets/images/speakers/KeiichiKawai.png
+staffs:
+  - name: 及川 卓也
+    organization: Increments株式会社
+    title: Qiita Product Manager
+    profile_image_url: /assets/images/profile_images/takoratta.jpeg
+sponsors:
+  - name: 池田 拓司
+    organization: クックパッド株式会社
+    title: VP of Product Design
+    profile_image_url: /assets/images/speakers/TakujiIkeda.jpg
+  - name: 斎藤 満
+    organization: 楽天株式会社
+    title:
+    profile_image_url: /assets/images/speakers/SaitoMitsuru.png
+  - name: 松崎 剛
+    organization: 日本マイクロソフト株式会社
+    title: テクニカル・エバンジェリスト
+    profile_image_url: /assets/images/blank_user.png
+others:
+  - name: 馬田 隆明
+    organization: 東京大学 本郷テックガレージ
+    title: ディレクター
+    profile_image_url: /assets/images/speakers/TakaakiUmada.jpg
+  - name:
+    organization: Coming Soon...
+    title:
+    profile_image_url: /assets/images/blank_user.png
