@@ -37,7 +37,7 @@ golds:
     url: http://goodpatch.com/jp
     logo_image_url: /assets/images/sponsors/goodpatch.png
   - name: クックパッド株式会社
-    url: http://cookpad.com/
+    url: https://info.cookpad.com/corporate/philosophy
     logo_image_url: /assets/images/sponsors/cookpad.png
 silvers:
 drinks:
@@ -57,7 +57,7 @@ drinks:
     url: https://www.freee.co.jp/
     logo_image_url: /assets/images/sponsors/freee.png
   - name: クックパッド株式会社
-    url: http://cookpad.com/
+    url: https://info.cookpad.com/corporate/philosophy
     logo_image_url: /assets/images/sponsors/cookpad.png
 communities:
   - name: POStudy ～アジャイル・プロダクトマネジメント研究会～
