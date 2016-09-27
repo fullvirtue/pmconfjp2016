@@ -8,6 +8,14 @@
       text-align: center;
       width: 25%;
       margin-bottom: 30px;
+
+      @media (min-width: $screen-md-min) {
+        width: 20%;
+      }
+
+      @media (max-width: $screen-xs-max) {
+        width: 50%;
+      }
     }
 
     &_image {
