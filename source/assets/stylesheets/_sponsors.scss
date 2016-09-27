@@ -1,8 +1,13 @@
 .sponsors {
 
+  &_title {
+    text-align: center;
+  }
+
   &_list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 
     &_item {
       display: flex;
