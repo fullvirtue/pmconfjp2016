@@ -21,10 +21,10 @@ staffs:
     organization: Increments株式会社
     title: Qiita Product Manager
     profile_image_url: /assets/images/profile_images/takoratta.jpeg
-  - name: 佐々木 大輔
-    organization: freee株式会社
-    title: 代表取締役
-    profile_image_url: /assets/images/blank_user.png
+  # - name: 佐々木 大輔
+  #   organization: freee株式会社
+  #   title: 代表取締役
+  #   profile_image_url: /assets/images/blank_user.png
 sponsors:
   - name: 池田 拓司
     organization: クックパッド株式会社
