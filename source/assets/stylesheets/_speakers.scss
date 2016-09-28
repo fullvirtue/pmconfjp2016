@@ -31,12 +31,16 @@
 
     &_organization {
       margin-top: 3px;
+      font-weight: bold;
+    }
+
+    &_title {
     }
 
     &_organization,
     &_title {
-      font-size: 12px;
       color: #888;
+      font-size: 12px;
       line-height: 1.4;
     }
   }
