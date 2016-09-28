@@ -1,0 +1,57 @@
+keynotes:
+  - name: 伊豫 健夫
+    organization: 株式会社メルカリ
+    title: 執行役員
+    profile_image_url: /assets/images/blank_user.png
+  - name: 徳生 裕人
+    organization: グーグル株式会社
+    title: 製品開発本部長
+    profile_image_url: /assets/images/blank_user.png
+specials:
+  - name: 河合 敬一
+    organization: Niantic, Inc.
+    title: Product Management Director
+    profile_image_url: /assets/images/speakers/KeiichiKawai.png
+  - name: David Hussman
+    organization: Odd-e Pte. Ltd.
+    title:
+    profile_image_url: /assets/images/blank_user.png
+staffs:
+  - name: 及川 卓也
+    organization: Increments株式会社
+    title: Qiita Product Manager
+    profile_image_url: /assets/images/profile_images/takoratta.jpeg
+  # - name: 佐々木 大輔
+  #   organization: freee株式会社
+  #   title: 代表取締役
+  #   profile_image_url: /assets/images/blank_user.png
+sponsors:
+  - name: 池田 拓司
+    organization: クックパッド株式会社
+    title: VP of Product Design
+    profile_image_url: /assets/images/speakers/TakujiIkeda.jpg
+  - name: 海野 弘成
+    organization: Increments株式会社
+    title: CEO / Qiita:Team PM
+    profile_image_url: /assets/images/speakers/HiroshigeUmino.jpg
+  - name: 斎藤 満
+    organization: 楽天株式会社
+    title:
+    profile_image_url: /assets/images/speakers/SaitoMitsuru.png
+  - name: 松崎 剛
+    organization: 日本マイクロソフト株式会社
+    title: テクニカル・エバンジェリスト
+    profile_image_url: /assets/images/speakers/MatsuzakiTsuyoshi.png
+others:
+  - name: 岩佐 琢磨
+    organization: 株式会社Cerevo
+    title: CEO
+    profile_image_url: /assets/images/blank_user.png
+  - name: 馬田 隆明
+    organization: 東京大学 本郷テックガレージ
+    title: ディレクター
+    profile_image_url: /assets/images/speakers/TakaakiUmada.jpg
+  - name: 倉岡 寛
+    organization: クービック株式会社
+    title: CEO
+    profile_image_url: /assets/images/blank_user.png

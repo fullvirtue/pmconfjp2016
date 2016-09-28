@@ -1,0 +1,57 @@
+.speakers {
+  &_list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    &_item {
+      text-align: center;
+      width: 25%;
+      margin-bottom: 30px;
+
+      @media (min-width: $screen-md-min) {
+        width: 20%;
+      }
+
+      @media (max-width: $screen-xs-max) {
+        width: 50%;
+      }
+    }
+
+    &_image {
+      border-radius: 50%;
+      width: 140px;
+      height: 140px;
+    }
+
+    &_name {
+      margin-top: 10px;
+      font-weight: bold;
+    }
+
+    &_organization {
+      margin-top: 3px;
+      font-weight: bold;
+    }
+
+    &_title {
+    }
+
+    &_organization,
+    &_title {
+      color: #888;
+      font-size: 12px;
+      line-height: 1.4;
+    }
+  }
+
+  &_schedulelink {
+    margin-top: 40px;
+    text-align: center;
+
+    .btn {
+      background-color: $brand-sub-color;
+      color: $brand-sub-text-color;
+    }
+  }
+}

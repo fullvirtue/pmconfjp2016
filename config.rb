@@ -58,10 +58,26 @@ helpers do
     "http://htomine.github.io/pmconf/#{current_page.url}"
   end
 
+  def jobs
+    arr = []
+    data.jobs.each { |j| arr << j }
+    arr
+  end
+
   def members
     arr = []
     data.staff.organizers.each { |o| arr << o }
     data.staff.collaborators.each { |s| arr << s }
+    arr
+  end
+
+  def speakers
+    arr = []
+    data.speakers.keynotes.each { |spk| arr << spk }
+    data.speakers.specials.each { |sps| arr << sps }
+    data.speakers.staffs.each { |spst| arr << spst }
+    data.speakers.sponsors.each { |spsp| arr << spsp }
+    data.speakers.others.each { |spo| arr << spo }
     arr
   end
 

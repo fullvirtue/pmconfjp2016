@@ -9,6 +9,7 @@
   &_title {
     text-align: center;
     line-height: 1.4;
+    color: #000;
     font: {
       size: 2.2em;
     }
@@ -16,6 +17,16 @@
       top: 0;
       bottom: 40px;
     }
+
+    + .section_subTitle {
+      margin-top: -30px;
+      margin-bottom: 50px;
+      color: #888;
+    }
+  }
+
+  &_subTitle {
+    text-align: center;
   }
 
   &_body {
