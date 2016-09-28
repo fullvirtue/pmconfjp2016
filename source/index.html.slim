@@ -106,17 +106,6 @@ section.section
 /         h1.information_title = link_to article.title, article.url
 /         time.information_time = article.date.strftime('%Y/%m/%d')
 
-/ Social Media Block
-/ section.section.hidden-xs
-/   .container
-/     .row
-/       .col-sm-6
-/         aside
-/           | <div class="fb-page" data-href="https://www.facebook.com/pmconf" data-width="500px" data-height="400px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/pmconf"><a href="https://www.facebook.com/pmconf">pmconf2016</a></blockquote></div></div>
-/
-/       .col-sm-6
-/         aside
-/           | <a class="twitter-timeline" href="https://twitter.com/pmconf" data-widget-id="663690851407654913" data-height="400px">@pmconfさんのツイート</a>
 section.section
   .container
     h2.section_title 👥 OUR SPONSORS
@@ -166,6 +155,17 @@ section.section
     .sponsors_list
       - data.sponsors.communities.each do |communities|
         = link_to image_tag(communities.logo_image_url), communities.url, class: 'sponsors_list_item-drinks', target: '_blank', title: communities.name, 'data-toggle' => 'tooltip'
+
+section.section.hidden-xs
+  .container
+    .row
+      .col-sm-6
+        aside
+          <div class="fb-page" data-href="https://www.facebook.com/pmconf.jp/" data-width="500px" data-height="400px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/pmconf.jp/"><a href="https://www.facebook.com/pmconf.jp/">pmconf.jp 2016</a></blockquote></div></div>
+
+      .col-sm-6
+        aside
+          <a class="twitter-timeline" data-height="400" href="https://twitter.com/pmconfjp">Tweets by pmconfjp</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 section.section
   .container
