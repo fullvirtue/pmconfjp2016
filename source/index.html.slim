@@ -26,7 +26,7 @@ section.section
 
 section.section
   .container
-    h2.section_title 📃 開催概要
+    h2.section_title 開催概要
     .row
       .col-sm-6
         <script type="text/javascript" src="http://maps.google.com/maps/api/js?key=AIzaSyA752IhT1WuIsrSVesJ6U08Cm6qgsRhqbI"></script>
@@ -57,7 +57,7 @@ section.section
 
 section.section
   .container
-    h2.section_title 🗣 SPEAKERS
+    h2.section_title SPEAKERS
     .speakers
       .speakers_list
         - data.speakers.keynotes.each do |keynotes|
@@ -108,12 +108,12 @@ section.section
 
 section.section
   .container
-    h2.section_title 👥 OUR SPONSORS
-    h3.sponsors_title 💎 PLATINUM SPONSORS
+    h2.section_title OUR SPONSORS
+    h3.sponsors_title PLATINUM SPONSORS
     .sponsors_list
       - data.sponsors.platina.each do |platina|
         = link_to image_tag(platina.logo_image_url), platina.url, class: 'sponsors_list_item-platina', target: '_blank', title: platina.name, 'data-toggle' => 'tooltip'
-    h3.sponsors_title 🏆 GOLD SPONSORS
+    h3.sponsors_title GOLD SPONSORS
     .sponsors_list
       - data.sponsors.golds.each do |golds|
         = link_to image_tag(golds.logo_image_url), golds.url, class: 'sponsors_list_item-golds', target: '_blank', title: golds.name, 'data-toggle' => 'tooltip'
@@ -122,7 +122,7 @@ section.section
       .sponsors_list
         - data.sponsors.silvers.each do |silvers|
           = link_to image_tag(silvers.logo_image_url), silvers.url, class: 'sponsors_list_item-silvers', target: '_blank', title: silvers.name, 'data-toggle' => 'tooltip'
-    h3.sponsors_title ☕️ DRINK SPONSORS
+    h3.sponsors_title DRINK SPONSORS
     .sponsors_list
       - data.sponsors.drinks.each do |drinks|
         = link_to image_tag(drinks.logo_image_url), drinks.url, class: 'sponsors_list_item-drinks', target: '_blank', title: drinks.name, 'data-toggle' => 'tooltip'
@@ -151,7 +151,7 @@ section.section
 
 section.section
   .container
-    h2.section_title 👫 OFFICIAL COMMUNITIES
+    h2.section_title OFFICIAL COMMUNITIES
     .sponsors_list
       - data.sponsors.communities.each do |communities|
         = link_to image_tag(communities.logo_image_url), communities.url, class: 'sponsors_list_item-drinks', target: '_blank', title: communities.name, 'data-toggle' => 'tooltip'
