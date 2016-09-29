@@ -2,45 +2,45 @@ keynotes:
   - name: 徳生 裕人
     organization: グーグル株式会社
     title: 製品開発本部長
-    profile_image_url: /assets/images/blank_user.png
+    profile_image_url: /assets/images/blank_user.jpeg
   - name: 伊豫 健夫
     organization: 株式会社メルカリ
     title: 執行役員
-    profile_image_url: /assets/images/speakers/TakeoIyo.png
+    profile_image_url: /assets/images/speakers/TakeoIyo.jpeg
 specials:
   - name: 馬田 隆明
     organization: 東京大学 本郷テックガレージ
     title: ディレクター
-    profile_image_url: /assets/images/speakers/TakaakiUmada.png
+    profile_image_url: /assets/images/speakers/TakaakiUmada.jpeg
   - name: David Hussman
     organization: DevJam
     title:
-    profile_image_url: /assets/images/speakers/DavidHussman.png
+    profile_image_url: /assets/images/speakers/DavidHussman.jpeg
   - name: 河合 敬一
     organization: Niantic, Inc.
     title: Product Management Director
-    profile_image_url: /assets/images/speakers/KeiichiKawai.png
+    profile_image_url: /assets/images/speakers/KeiichiKawai.jpeg
 staffs:
   - name: 池田 拓司
     organization: クックパッド株式会社
     title: VP of Product Design
-    profile_image_url: /assets/images/speakers/TakujiIkeda.png
+    profile_image_url: /assets/images/speakers/TakujiIkeda.jpeg
   - name: 岩佐 琢磨
     organization: 株式会社Cerevo
     title: CEO
-    profile_image_url: /assets/images/speakers/TakumaIwasa.png
+    profile_image_url: /assets/images/speakers/TakumaIwasa.jpeg
   - name: 倉岡 寛
     organization: クービック株式会社
     title: CEO
-    profile_image_url: /assets/images/speakers/HiroshiKuraoka.png
+    profile_image_url: /assets/images/speakers/HiroshiKuraoka.jpeg
   - name: 齊藤 満
     organization: 楽天株式会社
     title: Senior Manager
-    profile_image_url: /assets/images/speakers/MitsuruSaito.png
+    profile_image_url: /assets/images/speakers/MitsuruSaito.jpeg
   - name: 佐々木 大輔
     organization: freee株式会社
     title: 代表取締役
-    profile_image_url: /assets/images/speakers/DaisukeSasaki.png
+    profile_image_url: /assets/images/speakers/DaisukeSasaki.jpeg
   - name: 及川 卓也
     organization: Increments株式会社
     title: Qiita Product Manager
@@ -49,21 +49,21 @@ sponsors:
   - name: 海野 弘成
     organization: Increments株式会社
     title: CEO / Qiita:Team PM
-    profile_image_url: /assets/images/speakers/HiroshigeUmino.png
+    profile_image_url: /assets/images/speakers/HiroshigeUmino.jpeg
   - name: 渡辺 雄作
     organization: 株式会社サイバーエージェント
     title: プロダクトマネージャー
-    profile_image_url: /assets/images/speakers/YusakuWatanabe.png
+    profile_image_url: /assets/images/speakers/YusakuWatanabe.jpeg
   - name: 三木 雅之
     organization: 株式会社ジャストシステム
     title: 取締役CDO 最高開発責任者
-    profile_image_url: /assets/images/speakers/MasayukiMiki.png
+    profile_image_url: /assets/images/speakers/MasayukiMiki.jpeg
   - name: 松崎 剛
     organization: 日本マイクロソフト株式会社
     title: テクニカル・エバンジェリスト
-    profile_image_url: /assets/images/speakers/TsuyoshiMatsuzaki.png
+    profile_image_url: /assets/images/speakers/TsuyoshiMatsuzaki.jpeg
   - name: 市谷 聡啓
     organization: ギルドワークス株式会社
     title: 代表
-    profile_image_url: /assets/images/speakers/ToshihiroIchitani.png
+    profile_image_url: /assets/images/speakers/ToshihiroIchitani.jpeg
 others:
