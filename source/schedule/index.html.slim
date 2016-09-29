@@ -199,7 +199,7 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
   .schedule
     ul.nav.nav-tabs
       li.active
-        =link_to '10/25 (火)', '#day1', 'data-toggle' => 'tab'
+        =link_to '10/25 (火)', '#day2', 'data-toggle' => 'tab'
     .tab-content
       .tab-pane.active#day1
         .scheduleTable
@@ -215,15 +215,26 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
               | Welcome Talk (15min)
           .scheduleTable_line
             .scheduleTable_line_time
-              | 10:00 - 10:45
+              | 10:00 - 10:30
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
-                = image_tag 'blank_user.png', width: '52', height: '52'
+                = image_tag 'speakers/DavidHussman.jpg', width: '52', height: '52'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | Keynote Session #1 (45min)
+                  | Special Session #2 (30min)
                 .scheduleTable_line_speaker
-                  | by グーグル株式会社 製品開発本部長 徳生 裕人 氏
+                  | by DevJam David Hussman
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 10:30 - 10:50
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'speakers/SaitoMitsuru.png', width: '52', height: '52'
+              .scheduleTable_line_descriptions
+                .scheduleTable_line_title
+                  | Topic Session (45min)<br />『Product Manager という仕事』
+                .scheduleTable_line_speaker
+                  | by 楽天株式会社 Senior Manager 齊藤 満 氏<br />PM が出来て、おそらく20年以上経つのですが、まだまだ日本では、マイナーな職業で、実際の所、それが何物なのかも分かりにくく、その種類もいろいろある。私自身、その全部を知る者でも、PM として皆さんにお話しできるような、優秀なPM だとも思わないのですが、MS Japan で、7年半、MS US の Windows Division で、7年半、Program Manager を経験して、楽天トラベルで3年 PM Manager をやってきて、私なりの PM の姿、PM のメンタリティ、PM の考え方なんかをお話しできたらと考えています。そして、日本の会社である楽天トラベルに、PM というシステムの導入を取り組んできて、感じたこと、学んだこと、面白いと思う事、これからのチャレンジなんかをお話しします。PM が日本を救うかどうかは分からないですが、私にとっては、面白い仕事の一つだと思うので、そんな側面もお話しさせていただきたいと思います。
           .scheduleTable_line
             .scheduleTable_line_time
               | 10:45 - 10:55
