@@ -8,6 +8,10 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
     h1.pageHeader_title
       = current_page.data.title
   .schedule
+    .alert.alert-warning
+      | 下記のタイムテーブルは現在調整中です 🙇🏻
+      br
+      | 時刻など正しくない可能性がございます。正式発表をお待ちください。
     ul.nav.nav-tabs
       li.active
         =link_to '10/24 (月)', '#day1', 'data-toggle' => 'tab'
