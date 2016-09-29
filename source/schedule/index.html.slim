@@ -11,8 +11,6 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
     ul.nav.nav-tabs
       li.active
         =link_to '10/24 (月)', '#day1', 'data-toggle' => 'tab'
-      li
-        =link_to '10/25 (火)', '#day2', 'data-toggle' => 'tab'
     .tab-content
       .tab-pane.active#day1
         .scheduleTable
@@ -25,7 +23,7 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
             .scheduleTable_line_time
               | 09:45 - 10:00
             .scheduleTable_line_session-all
-              | Welcome Talk
+              | Welcome Talk (15min)
           .scheduleTable_line
             .scheduleTable_line_time
               | 10:00 - 10:45
@@ -34,52 +32,57 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
                 = image_tag 'blank_user.png', width: '52', height: '52'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | Keynote Session #1
+                  | Keynote Session #1 (45min)
                 .scheduleTable_line_speaker
-                  | by グーグル株式会社 製品開発本部長 徳生 裕人
+                  | by グーグル株式会社 製品開発本部長 徳生 裕人 氏
           .scheduleTable_line
             .scheduleTable_line_time
-              | 10:45 - 11:30
+              | 10:45 - 10:55
+            .scheduleTable_line_session-all.Break (10min)
+              | Break (10min)
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 10:55 - 11:40
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
-                = image_tag 'blank_user.png', width: '52', height: '52'
+                = image_tag 'TakaakiUmada.jpg', width: '52', height: '52'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | Special Session #1
+                  | Special Session #1 (45min)
                 .scheduleTable_line_speaker
-                  | Comming Soon
+                  | by 東京大学 本郷テックガレージ ディレクター 馬田 隆明 氏
           .scheduleTable_line
             .scheduleTable_line_time
-              | 11:30 - 12:20
+              | 11:40 - 12:20
             .scheduleTable_line_session-all
-              | Lunch Break
+              | Lunch Break (40min)
           .scheduleTable_line
             .scheduleTable_line_time
-              | 12:20 - 13:05
+              | 12:20 - 12:40
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
-                = image_tag 'blank_user.png', width: '52', height: '52'
+                = image_tag 'HiroshigeUmino.jpg', width: '52', height: '52'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | Topic Session
+                  | Topic Session (20min)
                 .scheduleTable_line_speaker
                   | Comming Soon
           .scheduleTable_line
             .scheduleTable_line_time
-              | 13:05 - 13:50
+              | 12:40 - 13:00
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
-                = image_tag 'blank_user.png', width: '52', height: '52'
+                = image_tag 'SaitoMitsuru.png', width: '52', height: '52'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | Topic Session
+                  | Topic Session (20min)<br />Product Manager という仕事
                 .scheduleTable_line_speaker
-                  | Comming Soon
+                  | by 楽天株式会社 Senior Manager 齊藤 満 氏
           .scheduleTable_line
             .scheduleTable_line_time
-              | 13:50 - 14:05
-            .scheduleTable_line_session-all.break
-              | Break
+              | 13:00 - 13:15
+            .scheduleTable_line_session-all.Break (10min)
+              | Break (10min)
           .scheduleTable_line
             .scheduleTable_line_time
               | 14:05 - 14:25
@@ -105,8 +108,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
           .scheduleTable_line
             .scheduleTable_line_time
               | 15:10 - 15:25
-            .scheduleTable_line_session-all.break
-              | Break
+            .scheduleTable_line_session-all.Break (10min)
+              | Break (10min)
           .scheduleTable_line
             .scheduleTable_line_time
               | 15:25 - 15:45
@@ -132,8 +135,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
           .scheduleTable_line
             .scheduleTable_line_time
               | 16:30 - 16:45
-            .scheduleTable_line_session-all.break
-              | Break
+            .scheduleTable_line_session-all.Break (10min)
+              | Break (10min)
           .scheduleTable_line
             .scheduleTable_line_time
               | 16:45 - 17:30
@@ -151,7 +154,12 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
             .scheduleTable_line_session-all
               | Networking Party
 
-      .tab-pane#day2
+  .schedule
+    ul.nav.nav-tabs
+      li.active
+        =link_to '10/25 (火)', '#day1', 'data-toggle' => 'tab'
+    .tab-content
+      .tab-pane.active#day1
         .scheduleTable
           .scheduleTable_line
             .scheduleTable_line_time
@@ -162,7 +170,7 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
             .scheduleTable_line_time
               | 09:45 - 10:00
             .scheduleTable_line_session-all
-              | Welcome Speech
+              | Welcome Talk (15min)
           .scheduleTable_line
             .scheduleTable_line_time
               | 10:00 - 10:45
@@ -171,52 +179,57 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
                 = image_tag 'blank_user.png', width: '52', height: '52'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | Keynote Session #2
+                  | Keynote Session #1 (45min)
                 .scheduleTable_line_speaker
-                  | by 株式会社メルカリ（登壇者調整中）
+                  | by グーグル株式会社 製品開発本部長 徳生 裕人 氏
           .scheduleTable_line
             .scheduleTable_line_time
-              | 10:45 - 11:30
+              | 10:45 - 10:55
+            .scheduleTable_line_session-all.Break (10min)
+              | Break (10min)
+          .scheduleTable_line
+            .scheduleTable_line_time
+              | 10:55 - 11:40
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
-                = image_tag 'blank_user.png', width: '52', height: '52'
+                = image_tag 'TakaakiUmada.jpg', width: '52', height: '52'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | Special Session #2
+                  | Special Session #1 (45min)
                 .scheduleTable_line_speaker
-                  | Comming Soon
+                  | by 東京大学 本郷テックガレージ ディレクター 馬田 隆明 氏
           .scheduleTable_line
             .scheduleTable_line_time
-              | 11:30 - 12:20
+              | 11:40 - 12:20
             .scheduleTable_line_session-all
-              | Lunch Break
+              | Lunch Break (40min)
           .scheduleTable_line
             .scheduleTable_line_time
-              | 12:20 - 13:05
+              | 12:20 - 12:40
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
-                = image_tag 'blank_user.png', width: '52', height: '52'
+                = image_tag 'HiroshigeUmino.jpg', width: '52', height: '52'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | Topic Session
+                  | Topic Session (20min)
                 .scheduleTable_line_speaker
                   | Comming Soon
           .scheduleTable_line
             .scheduleTable_line_time
-              | 13:05 - 13:50
+              | 12:40 - 13:00
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
-                = image_tag 'blank_user.png', width: '52', height: '52'
+                = image_tag 'SaitoMitsuru.png', width: '52', height: '52'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | Topic Session
+                  | Topic Session (20min)<br />Product Manager という仕事
                 .scheduleTable_line_speaker
-                  | Comming Soon
+                  | by 楽天株式会社 Senior Manager 齊藤 満 氏
           .scheduleTable_line
             .scheduleTable_line_time
-              | 13:50 - 14:05
-            .scheduleTable_line_session-all.break
-              | Break
+              | 13:00 - 13:15
+            .scheduleTable_line_session-all.Break (10min)
+              | Break (10min)
           .scheduleTable_line
             .scheduleTable_line_time
               | 14:05 - 14:25
@@ -242,8 +255,8 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
           .scheduleTable_line
             .scheduleTable_line_time
               | 15:10 - 15:25
-            .scheduleTable_line_session-all.break
-              | Break
+            .scheduleTable_line_session-all.Break (10min)
+              | Break (10min)
           .scheduleTable_line
             .scheduleTable_line_time
               | 15:25 - 15:45
@@ -269,15 +282,21 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
           .scheduleTable_line
             .scheduleTable_line_time
               | 16:30 - 16:45
-            .scheduleTable_line_session-all.break
-              | Break
+            .scheduleTable_line_session-all.Break (10min)
+              | Break (10min)
           .scheduleTable_line
             .scheduleTable_line_time
-              | 16:45 - 18:15
-            .scheduleTable_line_session-all
-              | Product Manager UnConference
+              | 16:45 - 17:30
+            .scheduleTable_line_session
+              .scheduleTable_line_speakerIcon
+                = image_tag 'profile_images/takoratta.jpeg', width: '52', height: '52'
+              .scheduleTable_line_descriptions
+                .scheduleTable_line_title
+                  | Topic Session
+                .scheduleTable_line_speaker
+                  | by Increments株式会社 プロダクトマネージャー 及川 卓也
           .scheduleTable_line
             .scheduleTable_line_time
-              | 18:15 - 19:00
+              | 17:30 - 19:00
             .scheduleTable_line_session-all
-              | Closing
+              | Networking Party
