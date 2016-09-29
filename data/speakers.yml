@@ -13,9 +13,9 @@ specials:
     title: Product Management Director
     profile_image_url: /assets/images/speakers/KeiichiKawai.png
   - name: David Hussman
-    organization: Odd-e Pte. Ltd.
+    organization: DevJam
     title:
-    profile_image_url: /assets/images/blank_user.png
+    profile_image_url: /assets/images/speakers/DavidHussman.jpg
 staffs:
   - name: 及川 卓也
     organization: Increments株式会社
@@ -34,9 +34,9 @@ sponsors:
     organization: Increments株式会社
     title: CEO / Qiita:Team PM
     profile_image_url: /assets/images/speakers/HiroshigeUmino.jpg
-  - name: 齊藤 満
+  - name: 斎藤 満
     organization: 楽天株式会社
-    title: Senior Manager
+    title:
     profile_image_url: /assets/images/speakers/SaitoMitsuru.png
   - name: 松崎 剛
     organization: 日本マイクロソフト株式会社
