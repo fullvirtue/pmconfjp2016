@@ -11,11 +11,11 @@ specials:
   - name: 馬田 隆明
     organization: 東京大学 本郷テックガレージ
     title: ディレクター
-    profile_image_url: /assets/images/speakers/TakaakiUmada.jpg
+    profile_image_url: /assets/images/speakers/TakaakiUmada.png
   - name: David Hussman
     organization: DevJam
     title:
-    profile_image_url: /assets/images/speakers/DavidHussman.jpg
+    profile_image_url: /assets/images/speakers/DavidHussman.png
   - name: 河合 敬一
     organization: Niantic, Inc.
     title: Product Management Director
@@ -24,19 +24,19 @@ staffs:
   - name: 池田 拓司
     organization: クックパッド株式会社
     title: VP of Product Design
-    profile_image_url: /assets/images/speakers/TakujiIkeda.jpg
+    profile_image_url: /assets/images/speakers/TakujiIkeda.png
   - name: 岩佐 琢磨
     organization: 株式会社Cerevo
     title: CEO
-    profile_image_url: /assets/images/speakers/TakumaIwasa.jpg
+    profile_image_url: /assets/images/speakers/TakumaIwasa.png
   - name: 倉岡 寛
     organization: クービック株式会社
     title: CEO
-    profile_image_url: /assets/images/blank_user.png
+    profile_image_url: /assets/images/speakers/HiroshiKuraoka.png
   - name: 齊藤 満
     organization: 楽天株式会社
     title: Senior Manager
-    profile_image_url: /assets/images/speakers/SaitoMitsuru.png
+    profile_image_url: /assets/images/speakers/MitsuruSaito.png
   - name: 佐々木 大輔
     organization: freee株式会社
     title: 代表取締役
@@ -44,26 +44,26 @@ staffs:
   - name: 及川 卓也
     organization: Increments株式会社
     title: Qiita Product Manager
-    profile_image_url: /assets/images/profile_images/takoratta.jpeg
+    profile_image_url: /assets/images/profile_images/takoratta.png
 sponsors:
   - name: 海野 弘成
     organization: Increments株式会社
     title: CEO / Qiita:Team PM
-    profile_image_url: /assets/images/speakers/HiroshigeUmino.jpg
+    profile_image_url: /assets/images/speakers/HiroshigeUmino.png
   - name: 渡辺 雄作
     organization: 株式会社サイバーエージェント
     title: プロダクトマネージャー
-    profile_image_url: /assets/images/speakers/WatanabeYusaku.jpg
+    profile_image_url: /assets/images/speakers/YusakuWatanabe.png
   - name: 三木 雅之
     organization: 株式会社ジャストシステム
     title: 取締役CDO 最高開発責任者
-    profile_image_url: /assets/images/speakers/MikiMasayuki.png
+    profile_image_url: /assets/images/speakers/MasayukiMiki.png
   - name: 松崎 剛
     organization: 日本マイクロソフト株式会社
     title: テクニカル・エバンジェリスト
-    profile_image_url: /assets/images/speakers/MatsuzakiTsuyoshi.png
+    profile_image_url: /assets/images/speakers/TsuyoshiMatsuzaki.png
   - name: 市谷 聡啓
     organization: ギルドワークス株式会社
     title: 代表
-    profile_image_url: /assets/images/speakers/IchitaniToshihiro.png
+    profile_image_url: /assets/images/speakers/ToshihiroIchitani.png
 others:
