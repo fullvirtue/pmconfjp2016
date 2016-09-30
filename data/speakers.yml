@@ -41,6 +41,10 @@ staffs:
     organization: freee株式会社
     title: 代表取締役
     profile_image_url: /assets/images/speakers/DaisukeSasaki.jpeg
+  - name: 高橋 りさ
+    organization: ソニーモバイルコミュニケーションズ株式会社
+    title: Section Manager & Experience Planner
+    profile_image_url: /assets/images/blank_user.png
   - name: 及川 卓也
     organization: Increments株式会社
     title: Qiita Product Manager
