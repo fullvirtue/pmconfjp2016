@@ -11,6 +11,9 @@ platina:
   - name: 日本マイクロソフト株式会社
     url: https://www.microsoft.com/ja-jp/server-cloud/Solutions-BI-Data-Analytics.aspx
     logo_image_url: /assets/images/sponsors/microsoft.png
+  - name: スマートニュース株式会社
+    url: http://about.smartnews.com/ja/about/
+    logo_image_url: /assets/images/sponsors/smartnews.png
   - name: 楽天株式会社
     url: http://corp.rakuten.co.jp/careers/engineering/
     logo_image_url: /assets/images/sponsors/rakuten.png
