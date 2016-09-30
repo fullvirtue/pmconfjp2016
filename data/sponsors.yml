@@ -39,6 +39,9 @@ golds:
   - name: クックパッド株式会社
     url: https://info.cookpad.com/corporate/philosophy
     logo_image_url: /assets/images/sponsors/cookpad.png
+  - name: グロースエクスパートナーズ株式会社
+    url: http://www.gxp.co.jp/atlassian/index.html
+    logo_image_url: /assets/images/sponsors/growthxpartners
 silvers:
 drinks:
   - name: スマートニュース株式会社
