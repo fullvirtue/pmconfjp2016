@@ -20,6 +20,10 @@ specials:
     organization: Niantic, Inc.
     title: Product Management Director
     profile_image_url: /assets/images/speakers/KeiichiKawai.jpeg
+  - name: 及川 卓也
+    organization: Increments株式会社
+    title: Qiita Product Manager
+    profile_image_url: /assets/images/profile_images/takoratta.jpeg
 staffs:
   - name: 池田 拓司
     organization: クックパッド株式会社
@@ -45,10 +49,6 @@ staffs:
     organization: ソニーモバイルコミュニケーションズ株式会社
     title: Section Manager & Experience Planner
     profile_image_url: /assets/images/blank_user.png
-  - name: 及川 卓也
-    organization: Increments株式会社
-    title: Qiita Product Manager
-    profile_image_url: /assets/images/profile_images/takoratta.jpeg
 sponsors:
   - name: 海野 弘成
     organization: Increments株式会社
