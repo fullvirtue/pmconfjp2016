@@ -19,6 +19,12 @@
     margin-top: 10px;
     margin-bottom: 30px;
 
+    &_block {
+      + .session_speaker_block {
+        margin-top: 10px;
+      }
+    }
+
     &_image {
       width: 48px;
       height: 48px;
@@ -61,6 +67,10 @@
 
       a {
         margin-right: 8px;
+      }
+
+      + .session_introduction_profile {
+        margin-top: 10px;
       }
     }
   }

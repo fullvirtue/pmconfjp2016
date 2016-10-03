@@ -12,9 +12,12 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
       | 下記のタイムテーブルは現在調整中です 🙇🏻
       br
       | 時刻など正しくない可能性がございます。正式発表をお待ちください。
-    ul.nav.nav-tabs
-      li.active
-        =link_to '10/24 (月)', '#day1', 'data-toggle' => 'tab'
+      
+    h2.schedule_title
+      | 10/24 (月)
+    / ul.nav.nav-tabs
+    /   li.active
+    /     =link_to '10/24 (月)', '#day1', 'data-toggle' => 'tab'
     .tab-content
       .tab-pane.active#day1
         .scheduleTable
@@ -26,85 +29,105 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
           .scheduleTable_line
             .scheduleTable_line_time
               | 09:45 - 10:00
+              .scheduleTable_line_time_min
+               | 15min
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
                 = image_tag 'pmconf_ico.png', width: '60', height: '60'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | Welcome Talk (15min)
+                  | Welcome Talk
           .scheduleTable_line
             .scheduleTable_line_time
               | 10:00 - 10:45
+              .scheduleTable_line_time_min
+               | 45min
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
                 = image_tag 'speakers/HirotoTokusei.jpeg', width: '60', height: '60'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | <a href="http://pmconf.jp/articles/2016/10/03/tokusei/">Keynote Session #1</a> (45min)
+                  | <a href="http://pmconf.jp/sessions/2016/10/03/tokusei/">Keynote Session #1</a>
                 .scheduleTable_line_speaker
                   | by グーグル株式会社 製品開発本部長 徳生 裕人 氏
           .scheduleTable_line
             .scheduleTable_line_time
               | 10:45 - 10:55
+              .scheduleTable_line_time_min
+               | 10min
             .scheduleTable_line_session-all.break
-              | Break (10min)
+              | Break
           .scheduleTable_line
             .scheduleTable_line_time
               | 10:55 - 11:40
+              .scheduleTable_line_time_min
+               | 45min
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
                 = image_tag 'speakers/TakaakiUmada.jpeg', width: '60', height: '60'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | [特別講演]『<a href="http://pmconf.jp/articles/2016/10/03/umada/">ゼロから始めるPM生活（仮）</a>』 (45min)
+                  | [特別講演]<a href="http://pmconf.jp/sessions/2016/10/03/umada/">ゼロから始めるPM生活（仮）</a>
                 .scheduleTable_line_speaker
                   | by 東京大学 本郷テックガレージ ディレクター 馬田 隆明 氏
           .scheduleTable_line
             .scheduleTable_line_time
               | 11:40 - 11:50
+              .scheduleTable_line_time_min
+               | 10min
             .scheduleTable_line_session-all.break
-              | Break (10min)
+              | Break
           .scheduleTable_line
             .scheduleTable_line_time
               | 11:50 - 12:10
+              .scheduleTable_line_time_min
+               | 20min
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
                 = image_tag 'speakers/HiroshigeUmino.jpeg', width: '60', height: '60'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | 『<a href="http://pmconf.jp/articles/2016/10/03/increments/">Product Team Management</a>』 (20min)
+                  | <a href="http://pmconf.jp/sessions/2016/10/03/increments/">Product Team Management</a>
                 .scheduleTable_line_speaker
                   | by Increments株式会社 CEO / Qiita:Team PM 海野 弘成 氏
           .scheduleTable_line
             .scheduleTable_line_time
               | 12:10 - 13:00
+              .scheduleTable_line_time_min
+               | 50min
             .scheduleTable_line_session-all.break
-              | Lunch Break (50min)
+              | Lunch Break
           .scheduleTable_line
             .scheduleTable_line_time
               | 13:00 - 13:45
+              .scheduleTable_line_time_min
+               | 45min
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
                 = image_tag 'speakers/TakumaIwasa.jpeg', width: '60', height: '60'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | Topic Session (45min)
+                  | Topic Session
                 .scheduleTable_line_speaker
                   | by 株式会社Cerevo CEO 岩佐 琢磨 氏
           .scheduleTable_line
             .scheduleTable_line_time
               | 13:45 - 13:55
+              .scheduleTable_line_time_min
+               | 10min
             .scheduleTable_line_session-all.break
-              | Break (10min)
+              | Break
           .scheduleTable_line
             .scheduleTable_line_time
               | 13:55 - 14:15
+              .scheduleTable_line_time_min
+               | 20min
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
                 = image_tag 'speakers/TsuyoshiKitagawa.jpeg', width: '60', height: '60'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | 『<a href="http://pmconf.jp/articles/2016/10/03/microsoft/">マイクロソフトによる「見える化」の民主化（Power BI 活用術）</a>』 (20min)
+                  | <a href="http://pmconf.jp/sessions/2016/10/03/microsoft/">マイクロソフトによる「見える化」の民主化（Power BI 活用術）</a>
                 .scheduleTable_line_speaker
                   | by 日本マイクロソフト株式会社 クラウド＆エンタープライズビジネス本部 北川 剛 氏
           .scheduleTable_line
@@ -119,102 +142,128 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
           .scheduleTable_line
             .scheduleTable_line_time
               | 14:15 - 14:35
+              .scheduleTable_line_time_min
+               | 20min
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
                 = image_tag 'speakers/ToshihiroIchitani.jpeg', width: '60', height: '60'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | 『<a href="http://pmconf.jp/articles/2016/10/03/guildworks/">正しいものを、正しくつくる</a>』(20min)
+                  | <a href="http://pmconf.jp/sessions/2016/10/03/guildworks/">正しいものを、正しくつくる</a>
                 .scheduleTable_line_speaker
                   | by ギルドワークス株式会社 代表 市谷 聡啓 氏
           .scheduleTable_line
             .scheduleTable_line_time
               | 14:35 - 14:45
+              .scheduleTable_line_time_min
+               | 10min
             .scheduleTable_line_session-all.break
-              | Break (10min)
+              | Break
           .scheduleTable_line
             .scheduleTable_line_time
               | 14:45 - 15:30
+              .scheduleTable_line_time_min
+               | 45min
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
                 = image_tag 'speakers/DaisukeSasaki.jpeg', width: '60', height: '60'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | Topic Session (45min)
+                  | Topic Session
                 .scheduleTable_line_speaker
                   | by freee株式会社 代表取締役 佐々木 大輔 氏
           .scheduleTable_line
             .scheduleTable_line_time
               | 15:30 - 15:50
-            .scheduleTable_line_session-all.break (20min)
-              | Break (20min)
+              .scheduleTable_line_time_min
+               | 20min
+            .scheduleTable_line_session-all.break
+              | Break
           .scheduleTable_line
             .scheduleTable_line_time
               | 15:50 - 16:10
+              .scheduleTable_line_time_min
+               | 20min
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
                 = image_tag 'speakers/MasayukiMiki.jpeg', width: '60', height: '60'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | 『現役23名のPM：タイプ別マネジメントパターン（仮）』 (20min)
+                  | 現役23名のPM：タイプ別マネジメントパターン（仮）
                 .scheduleTable_line_speaker
                   | by 株式会社ジャストシステム 取締役CDO 最高開発責任者 三木 雅之 氏
           .scheduleTable_line
             .scheduleTable_line_time
               | 16:10 - 16:20
+              .scheduleTable_line_time_min
+               | 10min
             .scheduleTable_line_session-all.break
-              | Break (10min)
+              | Break
           .scheduleTable_line
             .scheduleTable_line_time
               | 16:20 - 17:05
+              .scheduleTable_line_time_min
+               | 45min
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
                 = image_tag 'speakers/TakujiIkeda.jpeg', width: '60', height: '60'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | 『<a href="http://pmconf.jp/articles/2016/10/03/cookpad/">毎日の料理のためのプロダクト開発（仮）</a>』(45min)
+                  | <a href="http://pmconf.jp/sessions/2016/10/03/cookpad/">毎日の料理のためのプロダクト開発（仮）</a>
                 .scheduleTable_line_speaker
                   | by クックパッド株式会社 VP of Product Design 池田 拓司 氏
           .scheduleTable_line
             .scheduleTable_line_time
               | 17:05 - 17:15
+              .scheduleTable_line_time_min
+               | 10min
             .scheduleTable_line_session-all.break
-              | Break (10min)
+              | Break
           .scheduleTable_line
             .scheduleTable_line_time
               | 17:15 - 18:00
+              .scheduleTable_line_time_min
+               | 45min
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
                 = image_tag 'speakers/MitsuruSaito.jpeg', width: '60', height: '60'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | Topic Session (45min)
+                  | Topic Session
                 .scheduleTable_line_speaker
                   | by 楽天株式会社 Senior Manager 齊藤 満 氏
           .scheduleTable_line
             .scheduleTable_line_time
               | 18:00 - 18:10
+              .scheduleTable_line_time_min
+               | 10min
             .scheduleTable_line_session-all.break
-              | Break (10min)
+              | Break
           .scheduleTable_line
             .scheduleTable_line_time
               | 18:10 - 18:20
+              .scheduleTable_line_time_min
+               | 10min
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
                 = image_tag 'pmconf_ico.png', width: '60', height: '60'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | Day 1 Closing (10min)
+                  | Day 1 Closing
           .scheduleTable_line
             .scheduleTable_line_time
               | 18:20 - 19:30
+              .scheduleTable_line_time_min
+               | 70min
             .scheduleTable_line_session-all
-              | Networking Party #1 (70min)
+              | Networking Party #1
 
   .schedule
-    ul.nav.nav-tabs
-      li.active
-        =link_to '10/25 (火)', '#day2', 'data-toggle' => 'tab'
+    h2.schedule_title
+      | 10/25 (火)
+    / ul.nav.nav-tabs
+    /   li.active
+    /     =link_to '10/25 (火)', '#day2', 'data-toggle' => 'tab'
     .tab-content
       .tab-pane.active#day1
         .scheduleTable
@@ -226,64 +275,78 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
           .scheduleTable_line
             .scheduleTable_line_time
               | 09:45 - 10:00
+              .scheduleTable_line_time_min
+               | 15min
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
                 = image_tag 'pmconf_ico.png', width: '60', height: '60'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | Welcome Talk (15min)
+                  | Welcome Talk
           .scheduleTable_line
             .scheduleTable_line_time
               | 10:00 - 10:30
+              .scheduleTable_line_time_min
+               | 30min
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
                 = image_tag 'speakers/DavidHussman.jpeg', width: '60', height: '60'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | Special Session #2 (30min)
+                  | Special Session #2
                 .scheduleTable_line_speaker
                   | by DevJam David Hussman 氏
           .scheduleTable_line
             .scheduleTable_line_time
               | 10:30 - 10:40
+              .scheduleTable_line_time_min
+               | 10min
             .scheduleTable_line_session-all.break
-              | Break (10min)
+              | Break
           .scheduleTable_line
             .scheduleTable_line_time
               | 10:40 - 11:00
+              .scheduleTable_line_time_min
+               | 20min
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
                 = image_tag 'blank_user.png', width: '60', height: '60'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | Topic Session (20min)
+                  | Topic Session
                 .scheduleTable_line_speaker
                   | Comming Soon
           .scheduleTable_line
             .scheduleTable_line_time
               | 11:00 - 11:20
+              .scheduleTable_line_time_min
+               | 20min
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
                 = image_tag 'speakers/YusakuWatanabe.jpeg', width: '60', height: '60'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | 『<a href="http://pmconf.jp/articles/2016/10/03/cyberagent/">現場におけるプロダクトマネージャの仕事とジレンマ(仮)</a>』(20min)
+                  | <a href="http://pmconf.jp/sessions/2016/10/03/cyberagent/">現場におけるプロダクトマネージャの仕事とジレンマ(仮)</a>
                 .scheduleTable_line_speaker
                   | by 株式会社サイバーエージェント プロダクトマネージャー 渡辺 雄作 氏
           .scheduleTable_line
             .scheduleTable_line_time
               | 11:20 - 11:30
+              .scheduleTable_line_time_min
+               | 10min
             .scheduleTable_line_session-all.break
-              | Break (10min)
+              | Break
           .scheduleTable_line
             .scheduleTable_line_time
               | 11:30 - 12:15
+              .scheduleTable_line_time_min
+               | 45min
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
                 = image_tag 'speakers/KeiichiKawai.jpeg', width: '60', height: '60'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | Talk Session #1 (45min)
+                  | Talk Session #1
                 .scheduleTable_line_speaker
                   | by Niantic, Inc. Product Management Director 河合 敬一 氏
           .scheduleTable_line
@@ -298,43 +361,55 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
           .scheduleTable_line
             .scheduleTable_line_time
               | 12:15 - 13:00
+              .scheduleTable_line_time_min
+               | 45min
             .scheduleTable_line_session-all.break
-              | Lunch Break (45min)
+              | Lunch Break
           .scheduleTable_line
             .scheduleTable_line_time
               | 13:00 - 13:45
+              .scheduleTable_line_time_min
+               | 45min
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
                 = image_tag 'speakers/TakeoIyo.jpeg', width: '60', height: '60'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | Keynote Session #2 (45min)
+                  | Keynote Session #2
                 .scheduleTable_line_speaker
                   | by 株式会社メルカリ 執行役員 伊豫 健夫 氏
           .scheduleTable_line
             .scheduleTable_line_time
               | 13:45 - 13:55
+              .scheduleTable_line_time_min
+               | 10min
             .scheduleTable_line_session-all.break
-              | Break (10min)
+              | Break
           .scheduleTable_line
             .scheduleTable_line_time
               | 13:55 - 14:40
+              .scheduleTable_line_time_min
+               | 45min
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
                 = image_tag 'speakers/HiroshiKuraoka.jpeg', width: '60', height: '60'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | 『<a href="http://pmconf.jp/articles/2016/10/03/coubic/">自分が見てきた Product Manager (仮)</a>』(45min)
+                  | <a href="http://pmconf.jp/sessions/2016/10/03/coubic/">自分が見てきた Product Manager (仮)</a>
                 .scheduleTable_line_speaker
                   | by クービック株式会社 CEO 倉岡 寛 氏
           .scheduleTable_line
             .scheduleTable_line_time
               | 14:40 - 14:50
+              .scheduleTable_line_time_min
+               | 10min
             .scheduleTable_line_session-all.break
-              | Break (10min)
+              | Break
           .scheduleTable_line
             .scheduleTable_line_time
               | 14:50 - 15:35
+              .scheduleTable_line_time_min
+               | 45min
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
                 = image_tag 'blank_user.png', width: '60', height: '60'
@@ -346,78 +421,98 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
           .scheduleTable_line
             .scheduleTable_line_time
               | 15:35 - 15:55
+              .scheduleTable_line_time_min
+               | 20min
             .scheduleTable_line_session-all.break
-              | Break (20min)
+              | Break
           .scheduleTable_line
             .scheduleTable_line_time
               | 15:55 - 16:15
+              .scheduleTable_line_time_min
+               | 20min
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
                 = image_tag 'blank_user.png', width: '60', height: '60'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | Topic Session (20min)
+                  | Topic Session
                 .scheduleTable_line_speaker
                   | by 株式会社モバイルファクトリー
           .scheduleTable_line
             .scheduleTable_line_time
               | 16:15 - 16:35
+              .scheduleTable_line_time_min
+               | 20min
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
                 = image_tag 'blank_user.png', width: '60', height: '60'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | Topic Session (20min)
+                  | Topic Session
                 .scheduleTable_line_speaker
                   | by スマートニュース株式会社
           .scheduleTable_line
             .scheduleTable_line_time
               | 16:35 - 16:45
+              .scheduleTable_line_time_min
+               | 10min
             .scheduleTable_line_session-all.break
-              | Break (10min)
+              | Break
           .scheduleTable_line
             .scheduleTable_line_time
               | 16:45 - 17:30
+              .scheduleTable_line_time_min
+               | 45min
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
                 = image_tag 'blank_user.png', width: '60', height: '60'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | Topic Session (45min)
+                  | Topic Session
                 .scheduleTable_line_speaker
                   | Comming Soon
           .scheduleTable_line
             .scheduleTable_line_time
               | 17:30 - 17:40
+              .scheduleTable_line_time_min
+               | 10min
             .scheduleTable_line_session-all.break
-              | Break (10min)
+              | Break
           .scheduleTable_line
             .scheduleTable_line_time
               | 17:40 - 18:20
+              .scheduleTable_line_time_min
+               | 40min
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
                 = image_tag 'blank_user.png', width: '60', height: '60'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | 『<a href="http://pmconf.jp/articles/2016/10/03/unconference/">プロダクトマネージャー アンカンファレンス</a>』(40min)
+                  | <a href="http://pmconf.jp/sessions/2016/10/03/unconference/">プロダクトマネージャー アンカンファレンス</a>
                 .scheduleTable_line_speaker
                   | Japan Product Manager Conference 2016 では、2日目に40分のアンカンファレンス時間を設けています。アンカンファレンスとは参加者主導の発表イベントです。今回は、会場を6つのスペースに分けて実施します。発表枠は、1枠10分となり、最大24名の方が発表できます。<br />発表者と講演内容は、イベント会期中にサインアップ場所へ先着順に記載した方から発表枠が決まります。発表枠を確保した方は、各スペースでご発表いただきます。発表をご希望の方は、発表資料と発表用PCをご準備ください。
           .scheduleTable_line
             .scheduleTable_line_time
               | 18:20 - 18:30
+              .scheduleTable_line_time_min
+               | 10min
             .scheduleTable_line_session-all.break
-              | Break (10min)
+              | Break
           .scheduleTable_line
             .scheduleTable_line_time
               | 18:30 - 18:40
+              .scheduleTable_line_time_min
+               | 10min
             .scheduleTable_line_session
               .scheduleTable_line_speakerIcon
                 = image_tag 'pmconf_ico.png', width: '60', height: '60'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | Day 2 Closing (10min)
+                  | Day 2 Closing
           .scheduleTable_line
             .scheduleTable_line_time
               | 18:40 - 19:30
+              .scheduleTable_line_time_min
+               | 50min
             .scheduleTable_line_session-all
-              | Networking Party #2 (50min)
+              | Networking Party #2
