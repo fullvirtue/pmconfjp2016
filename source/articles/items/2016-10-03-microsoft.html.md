@@ -1,8 +1,9 @@
 ---
-title: マイクロソフトによる「見える化」の民主化（Power BI 活用術） 北川 剛 松崎 剛
-description: "マイクロソフトによる「見える化」の民主化（Power BI 活用術） 北川 剛 松崎 剛"
+title: マイクロソフトによる「見える化」の民主化（Power BI 活用術） - 北川 剛 - 松崎 剛
+description: "マイクロソフトによる「見える化」の民主化（Power BI 活用術） - 北川 剛 - 松崎 剛"
 date: 2016-10-03 22:12
 author: fullvirtue
+category: sessions
 ---
 
 マイクロソフトによる「見える化」の民主化（Power BI 活用術）

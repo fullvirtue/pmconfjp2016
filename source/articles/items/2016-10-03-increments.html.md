@@ -3,7 +3,6 @@ title: Product Team Management - 海野 弘成
 description: "Product Team Management - 海野 弘成"
 date: 2016-10-03 22:10
 author: fullvirtue
-category: sessions
 ---
 
 Product Team Management
