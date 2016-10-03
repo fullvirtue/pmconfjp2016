@@ -4,7 +4,7 @@ description: マイクロソフトによる「見える化」の民主化（Powe
 date: 2016-10-03 22:12
 author: fullvirtue
 og_image_url: speakers/TsuyoshiKitagawa.jpeg
-category: セッション情報
+category: sessions
 ---
 
 マイクロソフトによる「見える化」の民主化（Power BI 活用術）
