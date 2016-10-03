@@ -21,6 +21,17 @@ activate :blog do |blog|
 end
 
 activate :blog do |blog|
+  blog.name = 'sessions'
+  blog.prefix = 'sessions'
+
+  blog.layout = 'sessions_layout'
+  blog.permalink = '/{year}/{month}/{day}/{title}.html'
+  blog.sources = '/items/{year}-{month}-{day}-{title}.html'
+  blog.new_article_template = 'sessions_template.erb'
+  blog.default_extension = '.md'
+end
+
+activate :blog do |blog|
   blog.name = 'tips'
   blog.prefix = 'tips'
 
@@ -76,7 +87,6 @@ helpers do
     data.speakers.specials.each { |sps| arr << sps }
     data.speakers.staffs.each { |spst| arr << spst }
     data.speakers.sponsors.each { |spsp| arr << spsp }
-    data.speakers.others.each { |spo| arr << spo }
     arr
   end
 

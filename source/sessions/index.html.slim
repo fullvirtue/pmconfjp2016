@@ -1,15 +1,14 @@
 ---
-title: 記事一覧
-description: 記事の一覧です。
-blog: articles
+title: セッション一覧
+description: セッションの一覧です。
+blog: sessions
 ---
 
 .container
   .pageHeader
     h1.pageHeader_title = current_page.data.title
-    / = partial 'shared/articles_navigation', locals: { current: 'index' }
   ul.list-unstyled.articleList
-    - page_articles(blog_controller.name).each do |article|
+    - blog(blog_controller.name).articles.each do |article|
       li
         article.articleList_article
           h1.articleList_title = link_to article.title, article
