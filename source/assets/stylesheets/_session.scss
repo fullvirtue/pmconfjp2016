@@ -6,6 +6,10 @@
     padding-bottom: 5px;
     font-size: 1.3em;
     font-weight: normal;
+
+    @media (max-width: $screen-xs-max) {
+      margin-top: 40px;
+    }
   }
 
   &_title {

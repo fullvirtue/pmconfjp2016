@@ -71,31 +71,42 @@
         @extend .scheduleTable_line_session;
         display: inline-block;
         font-weight: bold;
-        margin-left: 70px;
+        margin-left: 115px;
         align-self: center;
 
         &.break {
           font-weight: normal;
         }
+
+        @media (max-width: $screen-xs-max) {
+          margin-left: 15px;
+        }
       }
     }
 
     &_descriptions {
-      padding: 0 10px;
+      padding: 0 15px;
     }
 
     &_speakerIcon {
       img {
         border-radius: 50%;
+        width: 100px;
+        height: 100px;
+      }
+
+      @media (max-width: $screen-xs-max) {
+        display: none;
       }
     }
 
     &_title {
+      font-size: 1.2em;
       font-weight: bold;
     }
 
     &_speaker {
-      font-size: .8em;
+      font-size: .9em;
       color: #888;
     }
   }
