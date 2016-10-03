@@ -1,7 +1,7 @@
 ---
 title: マイクロソフトによる「見える化」の民主化（Power BI 活用術） - 北川 剛 - 松崎 剛
 description: マイクロソフトによる「見える化」の民主化（Power BI 活用術） - 北川 剛 - 松崎 剛
-date: 2016-10-03 22:00
+date: 2016-10-03 22:12
 author: fullvirtue
 og_image_url: speakers/TsuyoshiKitagawa.jpeg
 category: セッション情報
