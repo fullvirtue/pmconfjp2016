@@ -1,8 +1,9 @@
 ---
 title: Product Team Management
 description: "Product Team Management"
-date: 2016-10-03 22:10
+date: 2016-10-03 23:52
 author: "海野 弘成"
+category: sessions
 ---
 多くのプロダクト開発は個人ではなくチームとして行われます。  
 

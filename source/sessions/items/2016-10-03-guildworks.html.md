@@ -1,7 +1,7 @@
 ---
 title: 正しいものを、正しくつくる
 description: "正しいものを、正しくつくる"
-date: 2016-10-03 22:15
+date: 2016-10-03 22:34
 author: "市谷 聡啓"
 category: sessions
 ---

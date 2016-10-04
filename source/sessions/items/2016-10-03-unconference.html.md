@@ -1,7 +1,7 @@
 ---
 title: プロダクトマネージャー アンカンファレンス
 description: "プロダクトマネージャー アンカンファレンス"
-date: 2016-10-03 23:59
+date: 2016-10-03 22:28
 author: fullvirtue
 category: sessions
 ---

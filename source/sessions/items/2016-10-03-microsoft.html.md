@@ -1,7 +1,7 @@
 ---
 title: マイクロソフトによる「見える化」の民主化（Power BI 活用術）
 description: "マイクロソフトによる「見える化」の民主化（Power BI 活用術）"
-date: 2016-10-03 22:12
+date: 2016-10-03 23:46
 author: "北川 剛"
 co_author: "松崎 剛"
 category: sessions
