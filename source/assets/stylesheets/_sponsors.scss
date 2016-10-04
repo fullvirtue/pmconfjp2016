@@ -48,6 +48,12 @@
         width: 120px;
         height: 120px;
       }
+
+      &-medias {
+        @extend .sponsors_list_item;
+        width: 120px;
+        height: 120px;
+      }
     }
   }
 
