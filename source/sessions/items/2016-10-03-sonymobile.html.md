@@ -5,4 +5,4 @@ date: 2016-10-03 22:40
 author: "高橋 りさ"
 category: sessions
 ---
-Comming soon.
+Coming soon.
