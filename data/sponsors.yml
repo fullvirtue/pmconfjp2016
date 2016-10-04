@@ -17,6 +17,9 @@ platina:
   - name: ギルドワークス株式会社
     url: https://guildworks.jp/
     logo_image_url: /assets/images/sponsors/guildworks.png
+  - name: 株式会社ディー・エヌ・エー
+    url: http://dena.com/jp/
+    logo_image_url: /assets/images/sponsors/dena.png
   - name: 株式会社サイバーエージェント
     url: https://www.cyberagent.co.jp/corporate/data/
     logo_image_url: /assets/images/sponsors/cyberagent.png
