@@ -71,6 +71,10 @@ drinks:
   - name: freee株式会社
     url: https://www.freee.co.jp/
     logo_image_url: /assets/images/sponsors/freee.png
+medias:
+  - name: CAREER HACK / エン・ジャパン株式会社
+    url: http://careerhack.en-japan.com/
+    logo_image_url: /assets/images/sponsors/careerhack.jpg
 communities:
   - name: POStudy ～アジャイル・プロダクトマネジメント研究会～
     url: http://www.postudy.com/
