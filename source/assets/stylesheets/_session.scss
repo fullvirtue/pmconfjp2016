@@ -24,22 +24,16 @@
     margin-bottom: 30px;
 
     &_block {
+      display: flex;
+
       + .session_speaker_block {
         margin-top: 10px;
       }
     }
 
-    &_image {
-      width: 48px;
-      height: 48px;
-      border-radius: 50%;
-      display: inline-block;
-    }
-
     &_names {
       display: inline-block;
       vertical-align: middle;
-      margin-left: 10px;
     }
 
     &_orgs {
@@ -53,12 +47,34 @@
   }
 
   &_introduction {
+    border-top: 1px solid #eee;
+    margin: 50px 0 10px;
+    padding-top: 20px;
+
     &_title {
       font-size: 1em;
-      font-weight: normal;
-      margin: 50px 0 10px;
-      padding-top: 20px;
-      border-top: 1px solid #eee;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    &_block {
+      display: flex;
+
+      + .session_introduction_block {
+        margin-top: 20px;
+
+        .session_introduction_title {
+          display: none;
+        }
+      }
+    }
+
+    &_image {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      margin-right: 20px;
+      align-self: center;
     }
 
     &_profile {
@@ -72,10 +88,6 @@
       a {
         margin-right: 8px;
       }
-
-      + .session_introduction_profile {
-        margin-top: 10px;
-      }
     }
   }
 
@@ -83,5 +95,6 @@
     margin-top: 20px;
     color: #aaa;
     font-size: 14px;
+    text-align: right;
   }
 }
