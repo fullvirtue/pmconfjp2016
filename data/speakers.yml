@@ -1,7 +1,7 @@
 keynotes:
   - name: 徳生 裕人
     organization: グーグル株式会社
-    title: 製品開発本部長
+    title: 製品開発本部 製品開発本部長
     profile_image_url: /assets/images/speakers/HirotoTokusei.jpeg
     profile: "日本における検索をはじめとする基幹製品の製品開発を統括。
     2005 年にGoogle に入社。プロダクトマネージャーとしてGoogle ブックスや経路検索等の開発に携わり、2008 年からは、アジア太平洋地域における YouTube の製品開発責任者として米国 YouTube 本社に勤務。YouTubeモバイル等の日本向け製品や、音声認識技術による字幕機能等の開発を担当。その後、国内の複数のベンチャーに経営に携わり、製品開発を統括。2014 年より現職。"
@@ -12,7 +12,7 @@ keynotes:
     profile_image_url: /assets/images/speakers/TakeoIyo.jpeg
 specials:
   - name: 馬田 隆明
-    organization: 東京大学 本郷テックガレージ
+    organization: 東京大学 産学協創推進本部 東京大学本郷テックガレージ
     title: ディレクター
     profile_image_url: /assets/images/speakers/TakaakiUmada.jpeg
     profile: "日本マイクロソフト株式会社にて Visual Studio のプロダクトマネージャーを経験後、テクニカルエバンジェリストとしてスタートアップ支援等を行う。2016 年より現職。"
@@ -34,7 +34,7 @@ specials:
 staffs:
   - name: 池田 拓司
     organization: クックパッド株式会社
-    title: VP of Product Design
+    title: VP of Product Design 投稿開発部 部長 デザイナー
     profile_image_url: /assets/images/speakers/TakujiIkeda.jpeg
     profile: "福岡県北九州市出身。多摩美術大学美術学部2部デザイン学科を卒業。ニフティ株式会社、株式会社はてなを経て、2012年4月よりクックパッド株式会社。サービスのデザインやユーザー体験担当するデザイナー。デザイン部長、ユーザーファースト推進部長などを経て、VP of Product Design 兼 投稿開発部長。著書に『スマートフォンのためのUIデザイン ユーザー体験に大切なルールとパターン』（ソフトバンククリエイティブ）他。"
     facebook: https://www.facebook.com/takujiikeda
@@ -45,7 +45,7 @@ staffs:
     profile_image_url: /assets/images/speakers/TakumaIwasa.jpeg
   - name: 倉岡 寛
     organization: クービック株式会社
-    title: CEO
+    title: Co-founder & CEO
     profile_image_url: /assets/images/speakers/HiroshiKuraoka.jpeg
     profile: "東京大学大学院工学系研究科精密機械工学専攻を 2007 年 3 月に卒業後、同年 4 月にグーグル株式会社に入社。検索担当プロダクトマネージャーとして、日本の検索シェアに責任を負う。2011 年 4 月にグリー株式会社に入社。米国の GREE International Inc の立ち上げや、Platform 事業の企画責任者、新規案件プロジェクトの事業部長を歴任。2013 年 10 月にクービック株式会社を設立し、代表取締役社長に就任。"
     twitter: https://twitter.com/hirossan
@@ -54,16 +54,20 @@ staffs:
     link: https://medium.com/@hiroshi
   - name: 齊藤 満
     organization: 楽天株式会社
-    title: Senior Manager
+    title: トラベルサービス開発・運用部 トラベルプロダクトマネジメント課 Senior Manager
     profile_image_url: /assets/images/speakers/MitsuruSaito.jpeg
+    profile: "Microsoft JAPAN Program Manager（Evangelist）<br />Microsoft US Program Manager（Windows）<br />Rakuten Senior Manager"
   - name: 佐々木 大輔
     organization: freee株式会社
     title: 代表取締役
     profile_image_url: /assets/images/speakers/DaisukeSasaki.jpeg
   - name: 高橋 りさ
     organization: ソニーモバイルコミュニケーションズ株式会社
-    title: Section Manager & Experience Planner
+    title: ソフトウェア開発4部 Camera App課 / UX商品企画2部 エクスペリエンス企画課（兼）Section Manager & Experience Planner
     profile_image_url: /assets/images/blank_user.png
+    profile: "Sony Mobileのスマートフォン Xperia に搭載されているアルバムアプリとMovie Creatorアプリのプロダクトマネージャーを担当。Sonyのガラケーから海外モデルの携帯電話の組み込み開発を経て、Sony Ericsson Android初号機 Xperia X10 よりアプリ開発に携わる。プライベートは2児の母で、ワーキングマザー歴（もうすぐ）10年。"
+    twitter: https://twitter.com/hatarakuboysmom
+    facebook: https://www.facebook.com/lisanosuke
 sponsors:
   - name: 海野 弘成
     organization: Increments株式会社
@@ -76,7 +80,7 @@ sponsors:
     github: https://github.com/yaotti
   - name: 渡辺 雄作
     organization: 株式会社サイバーエージェント
-    title: プロダクトマネージャー
+    title: アドテク本部 アドテクスタジオ プロダクトマネージャー
     profile_image_url: /assets/images/speakers/YusakuWatanabe.jpeg
     profile: "株式会社サイバーエージェント 2006年入社。2006年〜2013年アメブロ、アメーバピグ、各種コミュニティサービスの開発を担当。WEBエンジニア(プログラマー、SRE) チームマネジメント: PM、Scrumマスター その他、組織運営や採用など。2013年〜現在はアドテクスタジオにて主にプロダクトマネージャーとして従事。プロダクトデザイン/アーキテクト/事業戦略/チームビルド"
     twitter: https://twitter.com/waysaku
@@ -85,16 +89,17 @@ sponsors:
     organization: 株式会社ジャストシステム
     title: 取締役CDO 最高開発責任者
     profile_image_url: /assets/images/speakers/MasayukiMiki.jpeg
+    twitter: https://twitter.com/miki_cdo
   - name: 北川 剛
     organization: 日本マイクロソフト株式会社
-    title: エグゼクティブ・プロダクト・マネージャ
+    title: クラウド＆エンタープライズビジネス本部 エグゼクティブ・プロダクト・マネージャ
     profile_image_url: /assets/images/speakers/TsuyoshiKitagawa.jpeg
     profile: "日本マイクロソフトで、SQL Server および Azure Data Services のプロダクトマネージャーとして、製品管理やマーケティング、販売戦略の立案などに従事。プロダクトマネージャーとして、製品の売り上げ含めて国内での責任を一身に背負って活動中。"
     twitter: https://twitter.com/tskitag
     facebook: https://www.facebook.com/tsuyoshi.kitagawa/
   - name: 松崎 剛
     organization: 日本マイクロソフト株式会社
-    title: テクニカル・エバンジェリスト
+    title: デベロッパーエバンジェリズム統括本部 テクニカル・エバンジェリスト
     profile_image_url: /assets/images/speakers/TsuyoshiMatsuzaki.jpeg
     profile: "日本マイクロソフトのエバンジェリストとして、企業向けのクラウド、サーバーサイド、Office関連の開発技術に関する技術支援や紹介活動に従事。現在は主にISV企業向けに、Azure、Power BI、Botなどを使ったの開発技術を中心に活動中。"
     twitter: https://twitter.com/tsmatsuz
