@@ -2,7 +2,7 @@
 title: プロダクトマネージャー アンカンファレンス
 description: "プロダクトマネージャー アンカンファレンス"
 date: 2016-10-03 22:28
-author: fullvirtue
+author:
 category: sessions
 ---
 Japan Product Manager Conference 2016 では、2日目に40分のアンカンファレンス時間を設けています。アンカンファレンスとは参加者主導の発表イベントです。今回は、会場を6つのスペースに分けて実施します。発表枠は、1枠10分となり、最大24名の方が発表できます。
