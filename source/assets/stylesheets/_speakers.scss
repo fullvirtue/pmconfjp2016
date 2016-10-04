@@ -9,10 +9,6 @@
       width: 25%;
       margin-bottom: 30px;
 
-      @media (min-width: $screen-md-min) {
-        width: 20%;
-      }
-
       @media (max-width: $screen-xs-max) {
         width: 50%;
       }
@@ -20,8 +16,13 @@
 
     &_image {
       border-radius: 50%;
-      width: 140px;
-      height: 140px;
+      width: 160px;
+      height: 160px;
+
+      @media (max-width: $screen-sm-max) {
+        width: 140px;
+        height: 140px;
+      }
     }
 
     &_name {
@@ -35,6 +36,8 @@
     }
 
     &_title {
+      margin-top: 3px;
+      padding: 0 10px;
     }
 
     &_organization,
@@ -52,6 +55,15 @@
     .btn {
       background-color: $brand-sub-color;
       color: $brand-sub-text-color;
+      transition: all .1s ease-in-out;
+
+      &:hover,
+      &:active,
+      &:focus {
+        color: #fff;
+        background-color: #d02525;
+        text-decoration: none;
+      }
     }
   }
 }
