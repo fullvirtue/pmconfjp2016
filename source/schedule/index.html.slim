@@ -8,10 +8,10 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
     h1.pageHeader_title
       = current_page.data.title
   .schedule
-    .alert.alert-info
-      | タイムテーブルは一部調整中です 🙏
+    .alert.alert-warning
+      | 下記のタイムテーブルは現在調整中です 🙇🏻
       br
-      | 時刻や内容に変更が入る可能性があります。ご了承ください。
+      | 時刻など正しくない可能性がございます。正式発表をお待ちください。
       
     h2.schedule_title
       | 10/24 (月)
@@ -293,7 +293,7 @@ descriptipon: カンファレンスのタイムテーブルについて紹介し
                 = image_tag 'speakers/DavidHussman.jpeg', width: '100', height: '100'
               .scheduleTable_line_descriptions
                 .scheduleTable_line_title
-                  | Special Session #2
+                  | <a href="http://pmconf.jp/sessions/2016/10/03/davidhussman/">Special Session</a> #2
                 .scheduleTable_line_speaker
                   | by DevJam David Hussman 氏
           .scheduleTable_line
