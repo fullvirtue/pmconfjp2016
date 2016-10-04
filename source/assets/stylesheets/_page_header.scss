@@ -7,6 +7,10 @@
       size: 2em;
       weight: normal;
     }
+
+    @media (max-width: $screen-xs-max) {
+      margin-top: 70px;
+    }
   }
 
   .breadcrumb {

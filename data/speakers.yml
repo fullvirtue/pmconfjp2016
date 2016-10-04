@@ -3,6 +3,9 @@ keynotes:
     organization: グーグル株式会社
     title: 製品開発本部長
     profile_image_url: /assets/images/speakers/HirotoTokusei.jpeg
+    profile: "日本における検索をはじめとする基幹製品の製品開発を統括。
+    2005 年にGoogle に入社。プロダクトマネージャーとしてGoogle ブックスや経路検索等の開発に携わり、2008 年からは、アジア太平洋地域における YouTube の製品開発責任者として米国 YouTube 本社に勤務。YouTubeモバイル等の日本向け製品や、音声認識技術による字幕機能等の開発を担当。その後、国内の複数のベンチャーに経営に携わり、製品開発を統括。2014 年より現職。"
+    facebook: https://www.facebook.com/hiroto.tokusei
   - name: 伊豫 健夫
     organization: 株式会社メルカリ
     title: 執行役員
@@ -12,6 +15,10 @@ specials:
     organization: 東京大学 本郷テックガレージ
     title: ディレクター
     profile_image_url: /assets/images/speakers/TakaakiUmada.jpeg
+    profile: "日本マイクロソフト株式会社にて Visual Studio のプロダクトマネージャーを経験後、テクニカルエバンジェリストとしてスタートアップ支援等を行う。2016 年より現職。"
+    link: https://medium.com/@tumada/
+    twitter: https://twitter.com/tumada
+    facebook: https://www.facebook.com/taka.umada
   - name: David Hussman
     organization: DevJam
     title:
@@ -29,6 +36,9 @@ staffs:
     organization: クックパッド株式会社
     title: VP of Product Design
     profile_image_url: /assets/images/speakers/TakujiIkeda.jpeg
+    profile: "福岡県北九州市出身。多摩美術大学美術学部2部デザイン学科を卒業。ニフティ株式会社、株式会社はてなを経て、2012年4月よりクックパッド株式会社。サービスのデザインやユーザー体験担当するデザイナー。デザイン部長、ユーザーファースト推進部長などを経て、VP of Product Design 兼 投稿開発部長。著書に『スマートフォンのためのUIデザイン ユーザー体験に大切なルールとパターン』（ソフトバンククリエイティブ）他。"
+    facebook: https://www.facebook.com/takujiikeda
+    link: http://tikeda.hatenablog.com/
   - name: 岩佐 琢磨
     organization: 株式会社Cerevo
     title: CEO
@@ -37,6 +47,11 @@ staffs:
     organization: クービック株式会社
     title: CEO
     profile_image_url: /assets/images/speakers/HiroshiKuraoka.jpeg
+    profile: "東京大学大学院工学系研究科精密機械工学専攻を 2007 年 3 月に卒業後、同年 4 月にグーグル株式会社に入社。検索担当プロダクトマネージャーとして、日本の検索シェアに責任を負う。2011 年 4 月にグリー株式会社に入社。米国の GREE International Inc の立ち上げや、Platform 事業の企画責任者、新規案件プロジェクトの事業部長を歴任。2013 年 10 月にクービック株式会社を設立し、代表取締役社長に就任。"
+    twitter: https://twitter.com/hirossan
+    facebook: https://www.facebook.com/hiroshi.kuraoka
+    github: https://github.com/hirossan
+    link: https://medium.com/@hiroshi
   - name: 齊藤 満
     organization: 楽天株式会社
     title: Senior Manager
@@ -54,10 +69,18 @@ sponsors:
     organization: Increments株式会社
     title: CEO / Qiita:Team PM
     profile_image_url: /assets/images/speakers/HiroshigeUmino.jpeg
+    profile: "1988年兵庫県生まれ。京都大学工学部情報学科在学中にはてなやGoogleにてソフトウエアエンジニアとしてインターンを経験。iOSアプリ開発などを担当する。2011年、友人2人と作ったプログラマのための技術情報共有サービス「Qiita」をローンチ。大学卒業後の12年2月、Increments株式会社を設立し、代表取締役に就任。主なサービスに、Qiitaのほか、チーム間情報共有ツール「Qiita:Team」がある。"
+    link: http://yaotti.hatenablog.com/
+    twitter: https://twitter.com/yaotti
+    facebook: https://www.facebook.com/yaotti
+    github: https://github.com/yaotti
   - name: 渡辺 雄作
     organization: 株式会社サイバーエージェント
     title: プロダクトマネージャー
     profile_image_url: /assets/images/speakers/YusakuWatanabe.jpeg
+    profile: "株式会社サイバーエージェント 2006年入社。2006年〜2013年アメブロ、アメーバピグ、各種コミュニティサービスの開発を担当。WEBエンジニア(プログラマー、SRE) チームマネジメント: PM、Scrumマスター その他、組織運営や採用など。2013年〜現在はアドテクスタジオにて主にプロダクトマネージャーとして従事。プロダクトデザイン/アーキテクト/事業戦略/チームビルド"
+    twitter: https://twitter.com/waysaku
+    facebook: https://www.facebook.com/yusaku.watanabe.31
   - name: 三木 雅之
     organization: 株式会社ジャストシステム
     title: 取締役CDO 最高開発責任者
@@ -66,12 +89,23 @@ sponsors:
     organization: 日本マイクロソフト株式会社
     title: エグゼクティブ・プロダクト・マネージャ
     profile_image_url: /assets/images/speakers/TsuyoshiKitagawa.jpeg
+    profile: "日本マイクロソフトで、SQL Server および Azure Data Services のプロダクトマネージャーとして、製品管理やマーケティング、販売戦略の立案などに従事。プロダクトマネージャーとして、製品の売り上げ含めて国内での責任を一身に背負って活動中。"
+    twitter: https://twitter.com/tskitag
+    facebook: https://www.facebook.com/tsuyoshi.kitagawa/
   - name: 松崎 剛
     organization: 日本マイクロソフト株式会社
     title: テクニカル・エバンジェリスト
     profile_image_url: /assets/images/speakers/TsuyoshiMatsuzaki.jpeg
+    profile: "日本マイクロソフトのエバンジェリストとして、企業向けのクラウド、サーバーサイド、Office関連の開発技術に関する技術支援や紹介活動に従事。現在は主にISV企業向けに、Azure、Power BI、Botなどを使ったの開発技術を中心に活動中。"
+    twitter: https://twitter.com/tsmatsuz
+    facebook: https://www.facebook.com/tsuyoshi.matsuzaki.16
+    link: https://blogs.msdn.microsoft.com/tsmatsuz/
   - name: 市谷 聡啓
     organization: ギルドワークス株式会社
     title: 代表
     profile_image_url: /assets/images/speakers/ToshihiroIchitani.jpeg
-others:
+    profile: "システム企画案やサービスのアイデアからのコンセプトメイキング（プロダクトオーナー支援）や、アジャイル開発の運営・マネジメントを得意としています。プログラマーからキャリアをスタート。SIerでのプロジェクトマネジメント、大規模インターネットサービスのプロデューサー、アジャイル開発のマネジメントを経て、ギルドワークス代表に。それぞれのフィールドから得られた実践知で、ソフトウェアをお客様・開発チームと共創します。"
+    twitter: https://twitter.com/papanda
+    facebook: https://www.facebook.com/papanda0806
+    github: https://github.com/papanda
+    link: http://ichitani.com/
