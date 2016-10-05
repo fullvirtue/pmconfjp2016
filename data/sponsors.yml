@@ -20,6 +20,9 @@ platina:
   - name: 株式会社ディー・エヌ・エー
     url: http://dena.com/jp/
     logo_image_url: /assets/images/sponsors/dena.png
+  - name: エン・ジャパン株式会社
+    url: http://corp.en-japan.com/
+    logo_image_url: /assets/images/sponsors/enjapan.png
   - name: 株式会社サイバーエージェント
     url: https://www.cyberagent.co.jp/corporate/data/
     logo_image_url: /assets/images/sponsors/cyberagent.png
@@ -71,10 +74,6 @@ drinks:
   - name: freee株式会社
     url: https://www.freee.co.jp/
     logo_image_url: /assets/images/sponsors/freee.png
-medias:
-  - name: CAREER HACK / エン・ジャパン株式会社
-    url: http://careerhack.en-japan.com/
-    logo_image_url: /assets/images/sponsors/careerhack.jpg
 communities:
   - name: POStudy ～アジャイル・プロダクトマネジメント研究会～
     url: http://www.postudy.com/
