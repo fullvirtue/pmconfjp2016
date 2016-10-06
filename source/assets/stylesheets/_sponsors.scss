@@ -19,6 +19,10 @@
       background-color: #fff;
       border: 1px solid #eee;
 
+      &:last-child {
+        margin-right: 0;
+      }
+
       img {
         max-width: 100%;
         max-height: 100%;
@@ -50,6 +54,12 @@
       }
 
       &-medias {
+        @extend .sponsors_list_item;
+        width: 120px;
+        height: 120px;
+      }
+
+      &-goods {
         @extend .sponsors_list_item;
         width: 120px;
         height: 120px;
