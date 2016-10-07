@@ -78,6 +78,9 @@ medias:
   - name: CAREER HACK
     url: http://careerhack.en-japan.com/
     logo_image_url: /assets/images/sponsors/careerhack.jpg
+  - name: CodeZine
+    url: https://codezine.jp/
+    logo_image_url: /assets/images/sponsors/codezine.png
 communities:
   - name: POStudy ～アジャイル・プロダクトマネジメント研究会～
     url: http://www.postudy.com/
