@@ -45,6 +45,9 @@ golds:
   - name: クックパッド株式会社
     url: https://info.cookpad.com/corporate/philosophy
     logo_image_url: /assets/images/sponsors/cookpad.png
+  - name: 株式会社シャノン
+    url: http://www.shanon.co.jp/
+    logo_image_url: /assets/images/sponsors/shanon.png
   - name: 株式会社ビズリーチ
     url: http://www.bizreach.co.jp/corporate_info/profile/
     logo_image_url: /assets/images/sponsors/bizreach.png
