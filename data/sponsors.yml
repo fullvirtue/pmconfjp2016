@@ -87,6 +87,9 @@ medias:
   - name: Think IT
     url: https://thinkit.co.jp/
     logo_image_url: /assets/images/sponsors/thinkit.png
+  - name: Software Design
+    url: https://gihyo.jp/magazine/SD
+    logo_image_url: /assets/images/sponsors/softwaredesign.jpg
 communities:
   - name: POStudy ～アジャイル・プロダクトマネジメント研究会～
     url: http://www.postudy.com/
