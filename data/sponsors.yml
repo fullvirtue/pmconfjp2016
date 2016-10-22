@@ -93,6 +93,9 @@ medias:
   - name: Software Design
     url: https://gihyo.jp/magazine/SD
     logo_image_url: /assets/images/sponsors/softwaredesign.jpg
+  - name: 技術評論社
+    url: https://gihyo.jp/
+    logo_image_url: /assets/images/sponsors/gihyo.jpg
 communities:
   - name: POStudy ～アジャイル・プロダクトマネジメント研究会～
     url: http://www.postudy.com/
