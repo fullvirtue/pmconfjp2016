@@ -1,6 +1,6 @@
 ---
-title: プロセスからプロダクトへ
-description: "プロセスからプロダクトへ"
+title: 繝励Ο繧ｻ繧ｹ縺九ｉ繝励Ο繝繧ｯ繝医∈
+description: "繝励Ο繧ｻ繧ｹ縺九ｉ繝励Ο繝繧ｯ繝医∈"
 date: 2016-10-03 22:58
 author: "David Hussman"
 category: sessions
