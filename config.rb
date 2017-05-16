@@ -1,4 +1,4 @@
-Time.zone = 'Tokyo'
+Time.zone = 'Tokyo' # rubocop:disable all
 
 activate :directory_indexes
 
@@ -81,6 +81,7 @@ helpers do
     arr
   end
 
+# rubocop:disable all
   def speakers
     arr = []
     data.speakers.keynotes.each { |spk| arr << spk }
@@ -101,6 +102,7 @@ helpers do
     arr
   end
 end
+# rubocop:enable all
 
 set :images_dir, 'assets/images'
 
@@ -115,12 +117,12 @@ end
 activate :deploy do |deploy|
   deploy.deploy_method = :git
   deploy.branch = 'gh-pages'
-  deploy.remote = "https://#{ENV['GH_TOKEN']}@github.com/htomine/pmconf.git"
+  deploy.remote = "https://#{ENV['GH_TOKEN']}@github.com/fullvirtue/pmconfjp2016.git" # rubocop:disable all
   deploy.build_before = true
 end
 
 activate :external_pipeline,
          name: :webpack,
-         command: build? ? './node_modules/webpack/bin/webpack.js -p --bail' : './node_modules/webpack/bin/webpack.js --watch -d',
+         command: build? ? './node_modules/webpack/bin/webpack.js -p --bail' : './node_modules/webpack/bin/webpack.js --watch -d', # rubocop:disable all
          source: '.tmp/dist',
          latency: 1
