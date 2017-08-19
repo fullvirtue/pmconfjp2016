@@ -47,7 +47,7 @@ page 'sitemap.xml', layout: 'xml_layout'
 helpers do
   def page_title
     if current_page.data.title
-      "#{current_page.data.title} | プロダクトマネージャ―カンファレンス 2016"
+      "#{current_page.data.title} | プロダクトマネージャーカンファレンス 2016"
     elsif yield_content(:title)
       "#{yield_content(:title)} | プロダクトマネージャーカンファレンス 2016"
     else
@@ -66,7 +66,7 @@ helpers do
   end
 
   def page_url
-    "http://htomine.github.io/pmconf/#{current_page.url}"
+    "http://fullvirtue.github.io/pmconf2016/#{current_page.url}"
   end
 
   def jobs
