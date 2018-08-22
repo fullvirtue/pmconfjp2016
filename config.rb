@@ -66,7 +66,7 @@ helpers do
   end
 
   def page_url
-    "http://fullvirtue.github.io/pmconf2016/#{current_page.url}"
+    "http://pmconfjp.github.io/pmconf2016/#{current_page.url}"
   end
 
   def jobs
@@ -117,7 +117,7 @@ end
 activate :deploy do |deploy|
   deploy.deploy_method = :git
   deploy.branch = 'gh-pages'
-  deploy.remote = "https://#{ENV['GH_TOKEN']}@github.com/fullvirtue/pmconfjp2016.git" # rubocop:disable all
+  deploy.remote = "https://#{ENV['GH_TOKEN']}@github.com/pmconfjp/pmconfjp2016.git" # rubocop:disable all
   deploy.build_before = true
 end
 
